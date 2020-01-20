@@ -28,6 +28,10 @@ links:
   main_site: https://uwbhacks.com
   docs_site: https://docs.uwbhacks.com
 
+collections:
+  docs:
+    output: true
+
 # show_downloads: true
 
 # Build settings

@@ -1,0 +1,32 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+#sidebar {
+  flex: 30%;
+  margin: 5px;
+  padding: 15px;
+  background-color: #666;       // dull gray
+  // background-color: #A6729B;    // purple in `inline` text
+  // background-color: #B5E853;    // green in text
+}
+
+.sidebar-category {
+  color: #171717;
+}
+
+.sidebar-link {
+  color: black;
+  text-shadow: 0 0 5px #171717;
+}
+
+#main_content {
+  margin: 5px;
+  padding: 15px;
+}
