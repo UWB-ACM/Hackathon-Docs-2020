@@ -1,0 +1,43 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+#sidebar {
+  flex: 30%;
+  // background-color: #666;       // dull gray
+  // background-color: #A6729B;    // purple in `inline` text
+  // background-color: #B5E853;    // green in text
+}
+
+.sidebar-img {
+  padding: 20px;
+  background-image: url("/assets/imgs/pcb.jpg"); // url("/assets/imgs/board.jpg"); // url("/assets/imgs/phones.jpg");
+  background-repeat: repeat-y;
+}
+
+.sidebar-inner {
+  padding: 10px;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity/see-through */
+}
+
+.sidebar-category {
+  color: #B5E853;
+}
+
+.sidebar-link {
+  color: #A9749E; // #CECECE;
+  text-shadow: 0 0 2px #61435B; // #A9749E; // #CECECE;
+}
+
+#main_content {
+  margin-left: 40px;
+}
