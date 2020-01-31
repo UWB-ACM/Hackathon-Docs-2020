@@ -1,5 +1,5 @@
 # The Week Before
-
+- [x] testing task list
 # Dawn of the Final Day
 ### 24 hours remain
 - stuff to do the day before
