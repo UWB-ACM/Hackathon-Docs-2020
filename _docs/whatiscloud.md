@@ -27,7 +27,7 @@ You bet. Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (
 
 
 ### Why should I care about the cloud? It works fine on my machine!
-Try shipping your machine to the customer, then get back to me.
+Try shipping your machine to the customer, then get back to me. Really though, it’s because the applications that you can create in the cloud can be far more capable than what you can create on your machine. Web hosting, machine learning, databases, serverless functions and more are at your fingertips allowing you to build applications in a way you never could before.
 
 ### Alright, you've convinced me. So how do I get started?
 Head to [LINK HERE] and follow the exquisitely detailed instructions to learn how to signup for a free account on each cloud platform. It is highly recommended to peruse the documentation for each offering you want to use. Links to AWS, Azure, and GCP documentation websites have been provided for your convenience.
