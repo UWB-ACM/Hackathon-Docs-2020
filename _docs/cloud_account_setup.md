@@ -62,7 +62,7 @@ pages:
 * [Azure](https://azure.microsoft.com/en-us/free/); click `Start free`
 * [Google Cloud Platform](https://cloud.google.com/free/): click `Get started for free`
 * [AWS Educate](https://www.awseducate.com/registration#APP_TYPE); select `Student` and fill out the web form to apply for student benefits. Make sure to use your `.edu` email address.
-* [AWS](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc); click `Create A Free Account
+* [AWS](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc); click `Create A Free Account`
 
 Note that Azure for Students and AWS Educate may take several business days to be set 
 up; applying for access to these platforms 2 weeks before the hackathon is recommended 
