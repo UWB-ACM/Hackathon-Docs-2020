@@ -1,9 +1,9 @@
-﻿---
+---
 layout: default
 category: Getting Started
 title: Cloud Services FAQ
 order: 1
-permalink: /clsvcfaq.html
+permalink: /cloud_faq.html
 ---
 
 # Cloud Services FAQ
