@@ -39,7 +39,6 @@ Head to [LINK HERE] and follow the exquisitely detailed instructions to learn ho
 There is no such thing as a free lunch. More to the point though, each provider has a set of “always free” offerings, and a set of free trial offerings. All free offerings have usage limitations which will be clearly marked on the provider’s website. **Exceeding the listed limitations will result in charges which you will be responsible for.** Cloud providers will email you when you use credits or have a new invoice posted. Keep track of these communications and avoid leaving services running in order to minimize potential charges. Free trials typically last 12 months, after which you will be charged for any offering that is not in the “always free” category. Student accounts can often be renewed at the provider’s discretion.
 
 ### I heard there were free credits. How do I get some?
-Refer to [INSERT LINK HERE] to learn how you can get your hands on some free student credits!
-
+Refer to [our guide on cloud providers](_docs/cloud_account_setup.md) to learn how you can get your hands on some free student credits!
 
 
