@@ -25,7 +25,9 @@ blurb about stuff to do day before event
 - Water bottle
 - Toiletries / Comfy clothes (still can be useful for a single-day event)
 
-Some hardware, like Raspberry Pis and the required components to use them will be provided to you. AWS will be provided to you. Food will be provided, but if you have some dietary restrictions, plan accordingly.
+Some hardware, like Raspberry Pis and the required components to use them, will be provided to teams on a first-come, first-served basis if you wish to incorporate them in your project. The devices must be returned to the organizers at the end of the event.
+
+Food will be provided, but if you have some dietary restrictions, plan accordingly. Contact the hackathon organizers for specific questions about dietary needs.
 
 [The Ultimate Hackathon Checklist - Medium][hackathon-checklist]
 _A more in-depth checklist of what to bring and prepare for a hackathon._
