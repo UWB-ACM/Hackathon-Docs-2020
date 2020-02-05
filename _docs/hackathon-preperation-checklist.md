@@ -1,24 +1,32 @@
-# The Week Before
+The UWB Hacks is a 13-hour event, which can be a little daunting. Not sure how to prepare? Don't worry, this list has you covered.
+
+# 1-2 Weeks Before
 
 - Make a team
+    - 6 should be the max, but any group size below that is fine.
 - Brainstorm ideas
     - Not sure where to start? Check out our [project ideas page](_docs/project-ideas.md) to get your creative juices flowing.
-- Update your software
+- Get reacquainted with your IDE, and what programming language your team plans on using.
+    - If it's been a while, try out a "Hello World", just to ensure your development environment works.
 - Sign up for an account with a cloud provider
     - Check out our [provider overview](_docs/cloud_account_setup.md) for more information about free tier access and account credits
 # Dawn of the Final Day
-blurb about stuff to do day before event
+So you've got your teams picked out, and the Hackathon is in the morning. What should you do the day before to prepare?
 
 ## 24 Hours Remain
-- stuff to do the day before
-- Charge devices
+- Charge your devices
+    - This includes: laptops, phones, battery packs, etc.
+- Check-in with your group
 - Make a playlist
-- Check-in with group
 
 ### What to Bring to the Event
-- Laptop(s), Power Cables, USB Cables, Mouse, (Mechanical) Keyboard, HDMI Cable 
-
-- Adapter Cables to full-size HDMI, USB
+- Laptop(s)
+- Power Cables
+- USB Cables
+- Mouse
+- (Mechanical) Keyboard
+- HDMI Cable 
+    - Adapter Cables to full-size HDMI, USB
 - A flash drive (for slides or quick file sharing)
 - (Charged) Phone + Charger
 - Headphones
