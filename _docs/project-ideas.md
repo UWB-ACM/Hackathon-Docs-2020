@@ -1,3 +1,13 @@
+---
+layout: default
+category: Getting Started
+title: Project Ideas
+order: 4
+permalink: /project_ideas.html
+---
+
+# Project Ideas
+
 Stuck for ideas? You're not alone. Even the creative geniuses of our time need places to start to get some inspiration. Here are some ideas to help you get started.
 
 ## Make Something Retro
