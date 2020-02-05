@@ -1,5 +1,4 @@
 # The Week Before
-- [x] testing task list
 
 - Make a team
 - Brainstorm ideas
