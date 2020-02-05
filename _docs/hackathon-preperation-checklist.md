@@ -15,7 +15,7 @@ blurb about stuff to do day before event
 - Make a playlist
 - Check-in with group
 
-### What to Bring
+### What to Bring to the Event
 - Laptop(s), Power Cables, USB Cables, Mouse, (Mechanical) Keyboard, HDMI Cable 
 
 - Adapter Cables to full-size HDMI, USB
