@@ -10,7 +10,7 @@
 # Dawn of the Final Day
 blurb about stuff to do day before event
 
-## 24 hours remain
+## 24 Hours Remain
 - stuff to do the day before
 - Charge devices
 - Make a playlist
