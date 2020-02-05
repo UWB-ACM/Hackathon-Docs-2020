@@ -2,7 +2,7 @@
 
 - Make a team
 - Brainstorm ideas
-    - [link to project-ideas page?]
+    - Not sure where to start? Check out our [project ideas page](_docs/project-ideas.md) to get your creative juices flowing.
 - Update your software
 - Sign up for an account with a cloud provider
     - something to do with getting used to cloud technology
