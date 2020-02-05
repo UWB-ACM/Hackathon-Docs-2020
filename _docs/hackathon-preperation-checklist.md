@@ -5,7 +5,7 @@
 - Brainstorm ideas
     - [link to project-ideas page?]
 - Update your software
-- Get used to AWS?
+- Sign up for an account with a cloud provider
     - something to do with getting used to cloud technology
 # Dawn of the Final Day
 blurb about stuff to do day before event
