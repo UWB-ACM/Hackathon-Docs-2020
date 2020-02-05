@@ -5,7 +5,7 @@
     - Not sure where to start? Check out our [project ideas page](_docs/project-ideas.md) to get your creative juices flowing.
 - Update your software
 - Sign up for an account with a cloud provider
-    - something to do with getting used to cloud technology
+    - Check out our [provider overview](_docs/cloud_account_setup.md) for more information about free tier access and account credits
 # Dawn of the Final Day
 blurb about stuff to do day before event
 
