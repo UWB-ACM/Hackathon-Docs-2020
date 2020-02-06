@@ -67,3 +67,5 @@ Hackathon participants violating these rules may be sanctioned at the discretion
 ### Inquiries
 
 If you have any questions about these rules, please contact [the hackathon organizers](https://uwbacm.com).
+
+If you feel uncomfortable or think there may be a potential violation of the code of conduct, please report it immediately using the [Code of Conduct Violation Report]() form. All reporters have the right to remain anonymous.
