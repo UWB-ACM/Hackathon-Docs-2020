@@ -21,6 +21,7 @@ Create something that helps with student and community life.
 ## Make Something Helpful
 Create something that helps teach people something new, or addresses some issues a person might face.
 
+- A cloud-hosted CTF platform which spins up a service or resource that participants can hack or take over
 - Simple programming tutor that teaches someone to write a for-loop.
 - Browser-based data visualization for a dataset on [data.gov](https://www.data.gov/)
 - Interactive coding challenges based on questions from LeetCode
