@@ -49,7 +49,7 @@ We do not tolerate harassment of hackathon participants in any form. Sexual lang
 
 ### Plagarism
 
-We do not tolerate intentional direct plagarism of code or visual content from other participants or readily available resources on the internet.
+Intentional direct plagiarism of code or visual content from other participants and readily available resources on the internet will not be tolerated.
 
 If your project uses visual or programmatic elements that your team didn't create from scratch, you are expected to attribute credit to the original author(s).
 
