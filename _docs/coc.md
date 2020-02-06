@@ -51,7 +51,7 @@ We do not tolerate harassment of hackathon participants in any form. Sexual lang
 
 Intentional direct plagiarism of code or visual content from other participants and readily available resources on the internet will not be tolerated.
 
-If your project uses visual or programmatic elements that your team didn't create from scratch, you are expected to attribute credit to the original author(s).
+If your project uses visuals or program elements that your team didn't create from scratch, you are expected to attribute credit to the original author(s).
 
 Please use common sense, and take this opportunity to showcase your own individual creativity.
 
