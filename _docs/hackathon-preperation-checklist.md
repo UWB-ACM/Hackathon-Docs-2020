@@ -17,7 +17,7 @@ The UWB Hacks is a 13-hour event, which can be a little daunting. Not sure how t
 - Get reacquainted with your IDE, and what programming language your team plans on using.
     - If it's been a while, try out a "Hello World", just to ensure your development environment works.
 - Sign up for an account with a cloud provider
-    - Check out our [provider overview](_docs/cloud_account_setup.md) for more information about free tier access and account credits
+    - Check out our [provider overview](cloud_setup.html) for more information about free tier access and account credits
 # Dawn of the Final Day
 So you've got your teams picked out, and the Hackathon is in the morning. What should you do the day before to prepare?
 
