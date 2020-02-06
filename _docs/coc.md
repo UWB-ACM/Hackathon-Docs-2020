@@ -62,6 +62,7 @@ Hackathon participants violating these rules may be sanctioned at the discretion
 * being asked to leave the event
 * being banned from future events hosted by the organizers
 * having awards revoked
+* campus security being notified in the event of direct harassment
 
 ### Inquiries
 
