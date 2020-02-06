@@ -1,3 +1,11 @@
+---
+layout: default
+category: Getting Started
+title: Preparing to Hack
+order: 3
+permalink: /preparing.html
+---
+
 The UWB Hacks is a 13-hour event, which can be a little daunting. Not sure how to prepare? Don't worry, this list has you covered.
 
 # 1-2 Weeks Before
