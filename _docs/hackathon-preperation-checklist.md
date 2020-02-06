@@ -13,7 +13,7 @@ The UWB Hacks is a 13-hour event, which can be a little daunting. Not sure how t
 - Make a team
     - 6 should be the max, but any group size below that is fine.
 - Brainstorm ideas
-    - Not sure where to start? Check out our [project ideas page](_docs/project-ideas.md) to get your creative juices flowing.
+    - Not sure where to start? Check out our [project ideas page](project_ideas.html) to get your creative juices flowing.
 - Get reacquainted with your IDE, and what programming language your team plans on using.
     - If it's been a while, try out a "Hello World", just to ensure your development environment works.
 - Sign up for an account with a cloud provider
