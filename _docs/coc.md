@@ -15,7 +15,7 @@ UWB Hacks the Cloud is going to be amazing! Let's lay some ground rules to make 
 The gist of the Code of Conduct is:
 
 * be respectful to each other
-* don't plagarize other people's work
+* don't plagiarize other people's work
 * breaking these rules will have consequences
 
 ### Harassment
