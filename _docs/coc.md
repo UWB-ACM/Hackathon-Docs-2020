@@ -47,7 +47,7 @@ We do not tolerate harassment of hackathon participants in any form. Sexual lang
 * social media
 * any other online media
 
-### Plagarism
+### Plagiarism 
 
 Intentional direct plagiarism of code or visual content from other participants and readily available resources on the internet will not be tolerated.
 
