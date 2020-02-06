@@ -10,20 +10,22 @@ permalink: /project_ideas.html
 
 Stuck for ideas? You're not alone. Even the creative geniuses of our time need places to start to get some inspiration. Here are some ideas to help you get started.
 
-## Make Something Retro
-- ?
-
 ## Solve a Community Problem
-- transit app?
-- food ?
-- textbooks?
-- the stuff listed on '19 project-ideas
+Create something that helps with student and community life.
+
+- Transit app where you can plan your trip based on cost, distance, time, or enviromental impact.
+- Accessability on Campus app which shows accessable routes on campus, or lets students report accessability devices that are not working.
+- An app for finding best priced delivery service (e.g., GrubHub) for food in area, or an update on what food trucks are on campus
+- A textbook exchange system for exchanging textbooks for money, other textbooks, or services
 
 ## Make Something Helpful
-- tutor
-- adress eye problems
-- games to teach reading/spelling?
-- games to teach new language?
+Create something that helps teach people something new, or addresses some issues a person might face.
+
+- Simple programming tutor that teaches someone to write a for-loop.
+- Browser-based data visualization for a dataset on [data.gov](https://www.data.gov/)
+- Interactive coding challenges based on questions from LeetCode
+- A resume grammar validator and/or parser
+- Template engines for portfolio websites
 
 ## Make Something Silly
 A fun project can make your hackathon experience that much better! Here are a few ideas for inspiration:
