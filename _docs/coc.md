@@ -38,7 +38,7 @@ Our hackathon is dedicated to providing a safe and comfortable environment and h
 * computing experience or lack of
 * chosen programming language or tech stack
 
-We do not tolerate harassment of hackathon participants in any form. Sexual language and imagery is not appropriate at any hackathon venue; this includes the following:
+We do not tolerate harassment of hackathon participants, judges, mentors, volunteers, or organizers in any form. Sexual language and imagery is not appropriate at any hackathon venue; this includes the following:
 
 * hacks
 * talks, presentations, or demos
