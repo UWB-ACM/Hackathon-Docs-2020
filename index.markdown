@@ -28,10 +28,10 @@ TODO: This is mostly pulled from last year's schedule
 ## Useful Info
 
 #### Getting Started
-- [Preparing for the Hackathon](./_docs/hackathon-preperation-checklist.md)
-- [Project Ideas](./_docs/project-ideas.md)
-- [What is _the cloud_?](./_docs/whatiscloud.md)
-- [Configuring Your Cloud Environment](./_docs/cloud_account_setup.md)
+- [Preparing for the Hackathon]()
+- [Project Ideas]()
+- [What is _the cloud_?]()
+- [Configuring Your Cloud Environment]()
 - [Collaboration Tools]()
 
 #### Logistics
