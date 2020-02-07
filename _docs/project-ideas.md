@@ -31,6 +31,7 @@ Create something that helps teach people something new, or addresses some issues
 ## Make Something Silly
 A fun project can make your hackathon experience that much better! Here are a few ideas for inspiration:
 
+- Add googly eyes to images programmatically; use cloud storage for images, ML tools for feature recognition (eyes), and a cloud function with image tools (e.g. ImageMagick) to add the googly eyes.
 - A simple online game _(Check out [agar.io](https://agar.io/index.html), for example)_
 - A website exclusively inspired by a randomly generated GitHub repository name _(How about `supreme-potato`, `bug-free-guide`, or `ideal-octo-meme`? What does GitHub suggest when you create a new repository?)_
 - A wiki for memes
