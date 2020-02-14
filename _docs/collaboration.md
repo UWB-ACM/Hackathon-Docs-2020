@@ -1,11 +1,10 @@
-# **Table of Contents**
-
-## **Communication**
-
-## **Collaborative Coding**
-
-## **Collaborative Cloud**
-
+---
+layout: default
+category: Getting Started
+title: Collaboration
+order: 1
+permalink: /collaboration.html
+---
 
 ## **Communication**
 You can chat with other participants in the Hackathon through our [Discord channel](LINK_N/A)
