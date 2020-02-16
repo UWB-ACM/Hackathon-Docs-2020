@@ -25,6 +25,7 @@ TODO: This is mostly pulled from last year's schedule
 |  9:15 PM | Project Presentations                                        |
 | 10:00 PM | Awards & Closing Ceremony                                    |
 
+<!--
 ## Useful Info
 
 #### Getting Started
@@ -62,6 +63,6 @@ TODO: This is mostly pulled from last year's schedule
   - [AWS Elastic Beanstalk]()
   - [Azure Web App Services]()
   - [Google Cloud App Engine]()
-
+-->
 ## Submitting Your Project
 More information coming soon!
