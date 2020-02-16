@@ -9,9 +9,7 @@ some of the guides below to prepare for the big day, find inspiration
 for potential projects, or get help if you are feeling lost or stuck. 
 
 ## Schedule
-<!--  
-TODO: This is mostly pulled from last year's schedule
--->
+
 | Time     | Event                                                        |
 |---------:|:-------------------------------------------------------------|
 |  9:15 AM | Free Breakfast Provided                                      |
