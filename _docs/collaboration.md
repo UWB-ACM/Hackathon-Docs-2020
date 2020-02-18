@@ -2,7 +2,7 @@
 layout: default
 category: Getting Started
 title: Collaboration
-order: 1
+order: 6
 permalink: /collaboration.html
 ---
 # Collaboration
