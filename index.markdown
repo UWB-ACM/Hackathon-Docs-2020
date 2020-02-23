@@ -12,16 +12,19 @@ for potential projects, or get help if you are feeling lost or stuck.
 
 | Time     | Event                                                        |
 |---------:|:-------------------------------------------------------------|
+|  9:00 AM | Check-in Begins                                              |
 |  9:15 AM | Free Breakfast Provided                                      |
 | 10:00 AM | Opening Ceremony                                             |
-| 10:30 AM | Team-Building Mixer                                          |
-| 11:15 AM | Intro to Cloud Services, presented by UWB ACM                |
-| 12:00 PM | Free Lunch Provided                                          |
-| 12:45 PM | Security Considerations for the Cloud, presented by GrayHats |
-|  2:45 PM | Cloud Computing Workshop #3 -- TBD                           |
+| 10:30 AM | Workshop: Team-Building Mixer, Hosted by ACM-W               |
+| 11:15 AM | Workshop: Intro to Cloud Services                            |
+| 12:30 PM | Free Lunch Provided                                          |
+|  1:15 PM | Lightning Talks: Tales from the Cloud                        |
+|  2:45 PM | Workshop: To Be Announced                                    |
 |  6:00 PM | Free Dinner Provided                                         |
-|  9:15 PM | Project Presentations                                        |
-| 10:00 PM | Awards & Closing Ceremony                                    |
+|  8:00 PM | Project Submissions Due                                      |
+|  8:15 PM | Free Ice Cream Sundae Bar Provided                           |
+|  8:45 PM | Project Presentations                                        |
+|  9:45 PM | Awards Ceremony                                              |
 
 <!--
 ## Useful Info
