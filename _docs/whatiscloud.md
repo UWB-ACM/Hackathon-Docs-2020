@@ -20,7 +20,7 @@ There are two kinds of offerings that you might see when browsing a cloud provid
 * Services, on the other hand, abstract away the nitty-gritty implementation details. Services allow you to build and deploy your application without worrying about the underlying details. For example, Amazon’s AWS Lambda service allows you to deploy functions that contain regular code. AWS might run your code in a VM, or in a Container. The key thing to remember here is, *it doesn’t matter to you*. Most cloud offerings fall into the Services category, and they make developing cloud applications much easier than it might appear.
 
 ### Intriguing...so what can I do in the cloud?
-Almost anything you can dream of. Cloud providers are constantly improving and adding to their offerings. A good place to start would be to take a simple application that you could run locally, such as an app that retrieves and stores information in a database and move it into the cloud. Refer to [LINK TO EXAMPLE PROJECTS] for a few concrete examples.
+Almost anything you can dream of. Cloud providers are constantly improving and adding to their offerings. A good place to start would be to take a simple application that you could run locally, such as an app that retrieves and stores information in a database and move it into the cloud. Refer to [our collection of example projects](project-ideas.html) for a few concrete examples.
 
 ### Wait, there's more than one cloud provider?
 You bet. Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) are the three most well-known cloud providers out there today, but they aren’t the only ones. In order to keep these docs coherent (and us, sane) we’ll be focusing on these three.
