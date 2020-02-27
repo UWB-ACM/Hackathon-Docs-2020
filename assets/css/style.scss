@@ -8,6 +8,16 @@
   flex-direction: row;
 }
 
+#logo {
+  margin-left: auto;
+  // background-image: url("/assets/imgs/logo.png");
+}
+
+#logo > img {
+  height: 160px;
+  width: auto;
+}
+
 #sidebar {
   flex: 30%;
   // background-color: #666;       // dull gray

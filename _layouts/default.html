@@ -13,7 +13,8 @@
   <body>
 
     <header>
-      <div class="container">
+      <div class="container row">
+        <div>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
@@ -22,6 +23,10 @@
           <a href="{{ site.links.main_site }}" class="btn">Go to Hackathon Website</a>
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
+        </div>
+        <div id="logo">
+          <img src="/assets/imgs/logo.png" alt="UWB Hacks the Cloud logo">
+        </div>
       </div>
     </header>
 
