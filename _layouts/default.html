@@ -27,7 +27,7 @@
     <div class="container row">
       <section id="sidebar" class="sidebar-img">
         <section id="sidebar-inner" class="sidebar-inner">
-        {% assign mydocs = site.docs | group_by: 'category' %}
+        {% assign mydocs = site.docs | sort: 'category' | group_by: 'category' %}
         {% for cat in mydocs %}
           <h3 class="sidebar-category">{{ cat.name }}</h3>
           <ul>
