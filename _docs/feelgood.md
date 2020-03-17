@@ -82,9 +82,9 @@ described below.
   user's browser. The Lambda function also publishes a text message to the user's 
   provided number, which confirms subscription and welcomes the user.
 
-[View the website code here.]()
+[View the website code here.](https://github.com/UWB-ACM/feelgood/blob/master/website/)
 
-[View the subscription Lambda function here.]()
+[View the subscription Lambda function here.](https://github.com/UWB-ACM/feelgood/blob/master/subscribe/lambda_function.py)
 
 Here's a diagram of the system's flow of logic:
 
@@ -105,7 +105,7 @@ Here's a diagram of the system's flow of logic:
   the message for each topic to all subscribers for that topic. Each topic 
   is handled asynchronously.
 
-[View the publication Lambda function here.]()
+[View the publication Lambda function here.](https://github.com/UWB-ACM/feelgood/blob/master/subscribe/lambda_function.py)
 
 Here's a diagram of the subsystem's flow of logic:
 
