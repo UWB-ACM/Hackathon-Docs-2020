@@ -148,3 +148,5 @@ More info coming soon.
    [CloudWatch](https://aws.amazon.com/cloudwatch/). This was particularly 
    useful when troubleshooting unreliable message delivery to subscribers, 
    monitoring S3 usage, and monitoring the frequency of API requests.
+
+<div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/3KVChGOKcyyRO" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/steve-yahoo-retirement-3KVChGOKcyyRO">via GIPHY</a></p>
