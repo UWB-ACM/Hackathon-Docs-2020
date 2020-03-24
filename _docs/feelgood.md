@@ -105,7 +105,7 @@ Here's a diagram of the system's flow of logic:
   the message for each topic to all subscribers for that topic. Each topic 
   is handled asynchronously.
 
-[View the publication Lambda function here.](https://github.com/UWB-ACM/feelgood/blob/master/subscribe/lambda_function.py)
+[View the publication Lambda function here.](https://github.com/UWB-ACM/feelgood/blob/master/publish/lambda_function.py)
 
 Here's a diagram of the subsystem's flow of logic:
 
@@ -126,8 +126,7 @@ More info coming soon.
 
 ### Lambda
 
-More info coming soon.
-
+AWS Lambda handles all of FeelGood's computation. In addition to the [publish](https://github.com/UWB-ACM/feelgood/blob/master/publish/lambda_function.py) and [subscribe](https://github.com/UWB-ACM/feelgood/blob/master/subscribe/lambda_function.py) function code,there are many configuration steps that need to be taken within AWS in order for users to be subscribed and messages to be sent out.
 ### SNS
 
 More info coming soon.
