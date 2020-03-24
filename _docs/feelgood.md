@@ -74,7 +74,7 @@ described below.
     * Validates the phone number for correct formatting 
     * Looks up the [Amazon Resource Name](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) 
       (ARN) for the selected topic
-    * Invokes the [Simple Notification Service](https://aws.amazon.com/sns/) SDK
+    * Invokes the [Simple Notification Service](https://aws.amazon.com/sns/) (SNS) SDK
     * Makes a `subscribe()` call to SNS, passing the user's data and topic ARN
 * SNS saves the user's phone number as a subscriber under the specified topic.
 * If the Lambda function processes successfully, it will return a success code 
