@@ -23,11 +23,12 @@ for potential projects, or get help if you are feeling lost or stuck.
 
 ### Saturday April 18th
 
-| Time     | Event                                                        |
-|---------:|:-------------------------------------------------------------|
-| Whenever | Day 2 of hacking begins!                                     |
-| 12:00 PM | Virtual Gaming Session / Hack Break (more details TBA)       |
-|  5:00 PM | Virtual Bingo / Trivia / Hack Break (more details TBA)       |
+| Time     | Event                                                                            |
+|---------:|:---------------------------------------------------------------------------------|
+| Whenever | Day 2 of hacking begins!                                                         |
+| 12:00 PM | Virtual Gaming Session / Hack Break (more details TBA)                           |
+|  5:00 PM | Virtual Bingo / Trivia / Hack Break (more details TBA)                           |
+|  8:00 PM | AFK Photography Contest submissions due in [Discord](https://discord.gg/htz7ayg) |
 
 ### Sunday April 19th
 
