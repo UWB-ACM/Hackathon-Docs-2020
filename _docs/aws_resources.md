@@ -22,9 +22,9 @@ After you have signed up for an AWS account and begin using services, keep in mi
 
 5. Each service you use has associated resources that should be cleaned up after you're done using the service. If a service is left running for a long period of time, the free limit of that service will be exceeded and you will be charged for it. Below are some common services/resources that may incur charges if not cleaned up properly after used. See the [AWS documentation](https://aws.amazon.com/documentation/) for a complete list of services in use and how to clean them up. Links for deleting or de-allocating a few common products are listed here:
 
-  * [Delete S3 buckets.](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/delete-bucket.html)
-  * [Terminate EC2 instances -- leaving EC2 instances running is a common cause of unexpected recurring charges.](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html)
-  * Delete database tables: [DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/getting-started-step-8.html), [RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_DeleteInstance.html), and/or [Redshift](https://docs.aws.amazon.com/redshift/latest/mgmt/managing-clusters-console.html#delete-cluster)
+   * [Delete S3 buckets.](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/delete-bucket.html)
+   * [Terminate EC2 instances -- leaving EC2 instances running is a common cause of unexpected recurring charges.](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html)
+   * Delete database tables: [DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/getting-started-step-8.html), [RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_DeleteInstance.html), and/or [Redshift](https://docs.aws.amazon.com/redshift/latest/mgmt/managing-clusters-console.html#delete-cluster)
   
 The list above should be sufficient to get you started. You **do not** have to follow every step. However, pay close attention to **1, 3, and 5** because those are some of the most common solutions. 
 
