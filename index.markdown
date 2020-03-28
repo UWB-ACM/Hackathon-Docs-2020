@@ -66,4 +66,5 @@ for potential projects, or get help if you are feeling lost or stuck.
   - [Google Cloud App Engine]()
 -->
 ## Submitting Your Project
-More information coming soon!
+
+See our [docs page]({% link _docs/devpost.md %}) for more information.
