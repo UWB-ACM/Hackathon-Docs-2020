@@ -60,5 +60,6 @@ How to create EC2 instance in AWS step by step.
 
 ## AWS EC2 Linux Launch & Connection Using SSH
 
-[EC2 Linux Launch Video Available Here] (https://www.youtube.com/watch?v=v0g1M5bb9u4)
-[EC2 connect with Putty(Windows)] (This video will show how to use a PuTTY private key to connect to your Amazon EC2 Linux instance.)
+This video will show how to use a PuTTY private key to connect to your Amazon EC2 Linux instance.
+
+* [EC2 Linux Launch Video Available Here](https://www.youtube.com/watch?v=v0g1M5bb9u4)
