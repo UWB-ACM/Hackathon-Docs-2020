@@ -5,14 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 {% seo %}
   </head>
 
   <body>
-
+    <div class="mobile-only">
+        <p>Switch to a laptop (or maximize your browser window) for an optimal viewing experience.</p>
+    </div>
     <header>
-      <div class="container">
+      <div class="container row">
+        <div>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
@@ -21,6 +25,10 @@
           <a href="{{ site.links.main_site }}" class="btn">Go to Hackathon Website</a>
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
+        </div>
+        <div id="logo">
+          <img src="/assets/imgs/logo.png" alt="UWB Hacks the Cloud logo">
+        </div>
       </div>
     </header>
 
