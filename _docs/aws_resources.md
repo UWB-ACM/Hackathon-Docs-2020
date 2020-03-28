@@ -38,7 +38,7 @@ For additional information, AWS has a [comprehensive guide](https://docs.aws.ama
 In this AWS S3 tutorial the presenter walks step-by-step through the process of hosting a website on Amazon S3. The tutorial also includes setting up a custom domain name in AWS Route 53 and associating it with the website in S3.
 (Note: domain registration is not free but many custom domains are available at an affordable price.)
 
-[S3 Video Tutorial Available Here ] (https://www.youtube.com/watch?v=P_B79xXf-w8)
+[S3 Video Tutorial Available Here](https://www.youtube.com/watch?v=P_B79xXf-w8)
 
 ## AWS Lambda & DynamoDB | AWS Serverless Tutorial
 This tutorial as uses AWS Lambda, AWS API Gateway and DynamoDB to create a serverless backend for your application. This is a three
