@@ -53,10 +53,9 @@ In this AWS Lambda tutorial we set up a basic hello world Lambda function that's
 [Lambda & CloudWatch Video Tutorial Available Here.](https://www.youtube.com/watch?v=-v4LMV5DAD4&list=PLD_RqipW0-9s-u1HXTglYV8Aam-5P3XLi&index=7&t=0s)
 
 ## How to Create EC2 Instance in AWS Step-by-step
-Create Your EC2 Resources and Launch Your EC2 Instance.
-How to create EC2 instance in AWS step by step.
+How to create EC2 instance in AWS step by step, including creating the EC2 resource and launching the instance.
 
-[EC2 Video TutorialAvailable here](https://www.youtube.com/watch?v=1x5dWRaLvIw)
+[EC2 Video Tutorial Available Here](https://www.youtube.com/watch?v=1x5dWRaLvIw)
 
 ## AWS EC2 Linux Launch & Connection Using SSH
 
