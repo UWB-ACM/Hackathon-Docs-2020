@@ -44,7 +44,7 @@ In this AWS S3 tutorial the presenter walks step-by-step through the process of 
 This tutorial as uses AWS Lambda, AWS API Gateway and DynamoDB to create a serverless backend for your application. This is a three
 part series that can be accessed on "Cloud Path" via youTube.
 
-[Lambda DynamoDB Video Tutorial Available Here] (https://www.youtube.com/watch?v=VGerk8hrP9U)
+* [Lambda DynamoDB Video Tutorial Available Here](https://www.youtube.com/watch?v=VGerk8hrP9U)
 [Reserved Words In DynamoDB] (https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ReservedWords.html)
 
 ## AWS Lamda Tutorial | Use AWS CloudWatch Events to Schedule a Lambda Function Invocation
