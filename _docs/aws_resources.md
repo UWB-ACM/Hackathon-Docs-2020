@@ -45,7 +45,7 @@ This tutorial as uses AWS Lambda, AWS API Gateway and DynamoDB to create a serve
 part series that can be accessed on "Cloud Path" via youTube.
 
 * [Lambda DynamoDB Video Tutorial Available Here](https://www.youtube.com/watch?v=VGerk8hrP9U)
-[Reserved Words In DynamoDB] (https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ReservedWords.html)
+* [Reserved Words In DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ReservedWords.html)
 
 ## AWS Lamda Tutorial | Use AWS CloudWatch Events to Schedule a Lambda Function Invocation
 In this AWS Lambda tutorial we set up a basic hello world Lambda function that's triggered by a scheduled CloudWatch event to run every minute. This video is part of the AWS Serverless tutorial series.
