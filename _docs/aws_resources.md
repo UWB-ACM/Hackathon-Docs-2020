@@ -35,7 +35,7 @@ For additional information, AWS has a [comprehensive guide](https://docs.aws.ama
 # Video Tutorials To Help You Get Familiar With AWS Cloud services
 
 ## Static Website Hosting on S3, Route 53 Domain Name Registration
-In this AWS S3 tutorial the presenter walks step-by-step through the process of hosting a website on Amazon S3. Then set up a custom domain name in AWS Route 53 and associate it with our website in S3
+In this AWS S3 tutorial the presenter walks step-by-step through the process of hosting a website on Amazon S3. The tutorial also includes setting up a custom domain name in AWS Route 53 and associating it with the website in S3.
 (Domain registration is not free but at an affordable price. )
 
 [S3 Video Tutorial Available Here ] (https://www.youtube.com/watch?v=P_B79xXf-w8)
