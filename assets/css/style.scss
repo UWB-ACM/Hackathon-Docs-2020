@@ -10,16 +10,13 @@
 
 #logo {
   margin-left: auto;
+  padding-left: 20px;
   // background-image: url("/assets/imgs/logo.png");
 }
 
 #logo > img {
   height: 160px;
   width: auto;
-}
-
-.padded {
-  padding-left: 20px;
 }
 
 header h1 {
@@ -58,4 +55,30 @@ header h1 {
 
 #main_content {
   margin-left: 40px;
+}
+
+.mobile-only {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    #main_content {
+        margin-left: 0px;
+    }
+    #logo {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .btn {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .mobile-only {
+        display: block;
+        padding: 20px 20px;
+        border-bottom: 1px dashed $conifer;
+    }
 }
