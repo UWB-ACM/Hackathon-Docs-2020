@@ -7,5 +7,3 @@ permalink: /aws_products.html
 ---
 
 # AWS Product Overview
-
-More information coming soon!
