@@ -15,7 +15,7 @@ permalink: /aws_products.html
 ## [AWS Educate](https://aws.amazon.com/education/awseducate/)
 Through AWS Educate, students and educators have access to content and programs developed to skill up for cloud careers in growing fields. AWS Educate also connects companies hiring for cloud skills to qualified student job seekers with the AWS Educate Job Board.
 
-*During this unprecedented time of temporary and sustained school closings, we have developed a set of resources to help you and your teams: If you’re a [student](https://aws.amazon.com/education/awseducate/students/), you can benefit with no-cost, at-home learning opportunities through AWS Educate Cloud Career Pathways and specialty badges.*
+*During this unprecedented time of temporary and sustained school closings, Amazon has developed a set of resources to help you: If you’re a [student](https://aws.amazon.com/education/awseducate/students/), you can benefit with no-cost, at-home learning opportunities through AWS Educate Cloud Career Pathways and specialty badges.*
 
 
 ## [AWS Student Ambassador Program](https://aws.amazon.com/education/awseducate/student-ambassador-program/)
