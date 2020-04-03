@@ -8,15 +8,41 @@ permalink: /aws_resources.html
 
 # AWS Resources, SDK Links, Tutorials, and Helpful Tidbits
 
+## SDK Links
+
+- [JavaScript](https://aws.amazon.com/sdk-for-browser/)
+
+- [Python](https://aws.amazon.com/sdk-for-python/)
+
+- [PHP](https://aws.amazon.com/sdk-for-php/)
+
+- [.NET](https://aws.amazon.com/sdk-for-net/)
+
+- [Ruby](https://aws.amazon.com/sdk-for-ruby/)
+
+- [Java](https://aws.amazon.com/sdk-for-java/)
+
+- [Go](https://aws.amazon.com/sdk-for-go/)
+
+- [Node.js](https://aws.amazon.com/sdk-for-node-js/)
+
+- [C++](https://aws.amazon.com/sdk-for-cpp/)
+
+### Still looking for more? [Here's some additional tools!](https://aws.amazon.com/getting-started/tools-sdks/)
+
 ## Importing Large Datasets
 
-Pipieline vs Lambda functions
+When considering importing and exporting database information, there are a number of approaches a developer can take. Two common approaches involving creating your own function, using Lambda, or any other scripting service, or using a pipeline. This section covers some of the different use cases for those options in AWS, as well as provides some sample code for exporting/importing by hand.
 
 ### Pipeline
 Costs money!!! So much money!!! Please do not use this!!!!!!!!!!!!!!!
 
 ### Lambda
-Using S3 and DynamoDB
+This option takes a bit of programming, and can be frustrating to implement, as it is not as flexible as Data Pipeline can be with converting information. However, it's a heckuva lot cheaper for small projects, and the user is in full control over what they are doing.
+
+Lambda is a scripting service on AWS which works based on triggers, code, and output destination. For importing/exporting data, you would need to build your own Lambda function to handle for cases. It's not flexible like pipeline, and you will need to handle the parsing logic yourself.
+
+However - this solution works great for smaller projects. Learning how to set triggers for importing data, and writing code for exporting your data, allows for the developer to have full control over what AWS is doing with their data, and allows you to avoid any hidden fees. It can serve your exact purpose, and can be changed as needed. Generally, for independant projects on a budget, making your own Lambda function would be the best choice. It's also a lot of fun!
 
 #### Import
 
@@ -51,17 +77,36 @@ def lambda_handler(event, context):
         table.put_item(Item = k)
 ```
 
-.CSV
-```python
-# ? TODO ?
-```
-
-
 #### Export
 
+.CSV (by hand)
+```
+DynamoDB actually has inbuilt exporting for .CSV files!
+Just follow these steps:
+- Navigate to the DynamdoDB tables tab
+- Select the table you want to export from the table's tab
+- Currently, you should be on your table's "overview" page
+- Next to the "overview" tab, select the "items" tab
+- You should currently see your populated table
+- Next to your primary/partition key, there should be a checkbox
+- Click on this box
+- All boxes next to your table items should be selected
+- Now, there should be two buttons: "Create Item", and "Actions"
+- Select "Actions"
+- Under "Actions", there is the option "Export to .CSV"
+- Select this option
+- A .CSV file will be automatically saved to your computer
+
+This can be done for as many, or as little table items as needed.
+```
+
 .JSON (by hand)
-```python
-# BRUTE FORCE SOLUTION
+```
+DynamoDB does not have inbuilt exporting of .JSON files, but it is not to difficult to get your information exported with using Data Pipeline, or Lambda. It is a bit of a brute force solution, but it is simple and functional.
+
+To do so, follow the steps listed above to export a .CSV file. Then, convert that .CSV file into .JSON. It's that easy!
+
+There are a number of sites that can do the conversion, but an example of one such sight can be found here: https://csvjson.com/csv2json
 ```
 
 .JSON (Lambda)
@@ -98,13 +143,5 @@ def lambda_handler(event, context):
     s3.Bucket(bucket_name).upload_file(lambda_path, s3_path)
 ```
 
-.CSV (by hand)
-```python
-# BRUTE FORCE SOLUTION
-```
 
-.CSV (Lambda)
-```python
-# ? TODO ?
-```
 
