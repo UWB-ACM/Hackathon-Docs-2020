@@ -35,7 +35,9 @@ permalink: /aws_resources.html
 When considering importing and exporting database information, there are a number of approaches a developer can take. Two common approaches involving creating your own function, using Lambda, or any other scripting service, or using a pipeline. This section covers some of the different use cases for those options in AWS, as well as provides some sample code for exporting/importing by hand.
 
 ### Pipeline
-Costs money!!! So much money!!! Please do not use this!!!!!!!!!!!!!!!
+When considering how to import data sets, AWS's Data Pipeline service is a service that eleminates many of the manual steps a developer would have to take. It is a process that is flexible to the dataset, scalable, and easily processed in parallel - which means it can process a lot of data very quickly.
+
+As a turnkey solution, Data Pipeline works with most datasets, and can be configured through a drag-and drop interface. However, its flexibility comes at a cost, even when your import or export fails. For larger projects, such as company databases, where information needs to be consistantly moving, this is a great solution. However, for smaller projects, it can easily eat through the budget given for the Hackathon, despite it's effectiveness. As such, smaller projects are safer with building their own import/export functions with Lambda.
 
 ### Lambda
 This option takes a bit of programming, and can be frustrating to implement, as it is not as flexible as Data Pipeline can be with converting information. However, it's a heckuva lot cheaper for small projects, and the user is in full control over what they are doing.
@@ -44,7 +46,7 @@ Lambda is a scripting service on AWS which works based on triggers, code, and ou
 
 However - this solution works great for smaller projects. Learning how to set triggers for importing data, and writing code for exporting your data, allows for the developer to have full control over what AWS is doing with their data, and allows you to avoid any hidden fees. It can serve your exact purpose, and can be changed as needed. Generally, for independant projects on a budget, making your own Lambda function would be the best choice. It's also a lot of fun!
 
-#### Import
+#### Import using DynamoDB
 
 .JSON
 ```python
@@ -77,7 +79,7 @@ def lambda_handler(event, context):
         table.put_item(Item = k)
 ```
 
-#### Export
+#### Export using DynamoDB
 
 .CSV (by hand)
 ```
@@ -144,4 +146,25 @@ def lambda_handler(event, context):
 ```
 
 
+## Reserved Words
 
+When working with tables in AWS, it's important to keep mind of a few words that should not be used. These are words in use by the database itself for a variety of different reasons, and using these terms as a primary key, or sort key, will cause errors when trying to call those columns from a JavaScript call.
+
+A few example words are:
+- LOCATION
+- ATTRIBUTE
+- BLOB
+- CLASS
+- DIAGNOSTICS
+- GROUP
+
+**DO NOT USE THESE WORDS**
+
+They will only cause problems for you down the line!
+
+Before finalizing your database schema, be sure to check ALL TERMS against these reserved words. If you use on of these terms for your partition key, or sort key, there will be no way to change them. Failure to double check may mean your group will have to terminate your table, and recreate it so it no longer uses these terms.
+
+For a full list of terms, check out the resource for DynamoDB: [Reserved Words in DynamoDB
+PDF](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ReservedWords.html)
+
+Each AWS database service will have its own set of reserved words, so be sure to check those out early, and reference them often before finalizing your tables.
