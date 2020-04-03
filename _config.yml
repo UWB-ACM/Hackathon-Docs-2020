@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: UWB Hacks the Cloud | Documentation
+title: UWB Hacks the Cloud Documentation
 email: uwbacm@uw.edu
 description: >- # this means to ignore newlines until "baseurl:"
   All the essential information needed to create an amazing 
