@@ -15,7 +15,7 @@ permalink: /aws_products.html
 ## [AWS Educate](https://aws.amazon.com/education/awseducate/)
 Through AWS Educate, students and educators have access to content and programs developed to skill up for cloud careers in growing fields. AWS Educate also connects companies hiring for cloud skills to qualified student job seekers with the AWS Educate Job Board.
 
-**During this unprecedented time of temporary and sustained school closings, we have developed a set of resources to help you and your teams: If you’re a [student](https://aws.amazon.com/education/awseducate/students/), you can benefit with no-cost, at-home learning opportunities through AWS Educate Cloud Career Pathways and specialty badges.**
+*During this unprecedented time of temporary and sustained school closings, we have developed a set of resources to help you and your teams: If you’re a [student](https://aws.amazon.com/education/awseducate/students/), you can benefit with no-cost, at-home learning opportunities through AWS Educate Cloud Career Pathways and specialty badges.*
 
 
 ## [AWS Student Ambassador Program](https://aws.amazon.com/education/awseducate/student-ambassador-program/)
@@ -23,7 +23,7 @@ Apply to become an ambassador on your campus. Participants are given access to c
 
 
 
-Featured Products
+# Featured Products
 ***
 
 ## [Amazon EC2](https://aws.amazon.com/ec2/?nc2=h_ql_prod_fs_ec2)
@@ -64,10 +64,10 @@ Use lambda to run a servreless function.
 Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly. SageMaker removes the heavy lifting from each step of the machine learning process to make it easier to develop high quality models.
 
 
-##[Amazon Lightsail](https://aws.amazon.com/lightsail/?nc2=h_ql_prod_fs_ls)
+## [Amazon Lightsail](https://aws.amazon.com/lightsail/?nc2=h_ql_prod_fs_ls)
 Amazon Lightsail provides a number of features designed to help make your project quickly come to life. Designed as an all-in-one cloud platform, Lightsail offers you a one-stop-shop for all your cloud needs. Take a look to see how we can help you get started on the AWS infrastructure.  
 
 Lightsail can be used to launch a Windows or linux virtual machine, launch a WordPress website.
 
-##[Amazon VPC ](https://aws.amazon.com/vpc/?nc2=h_ql_prod_fs_vpc)
+## [Amazon VPC ](https://aws.amazon.com/vpc/?nc2=h_ql_prod_fs_vpc)
 AWS PrivateLink enables customers to access services hosted on AWS easily but securely by keeping all the network traffic within the AWS network.
