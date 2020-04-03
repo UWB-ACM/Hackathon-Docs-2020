@@ -8,7 +8,7 @@ permalink: /aws_products.html
 
 # Welcome to AWS Product Overview
 
-
+***
 # Student Programs
 ***
 
@@ -19,13 +19,11 @@ Through AWS Educate, students and educators have access to content and programs 
 
 
 ## [AWS Student Ambassador Program](https://aws.amazon.com/education/awseducate/student-ambassador-program/)
-Apply to become an ambassador on your campus. Participants are given access to career development and other benefits. Click the heading to apply or learn more.***
+Apply to become an ambassador on your campus. Participants are given access to career development and other benefits. Click the heading to apply or learn more.
 
-
-
+***
 # Featured Products
 ***
-
 ## [Amazon EC2](https://aws.amazon.com/ec2/?nc2=h_ql_prod_fs_ec2)
 Amazon EC2 presents a true virtual computing environment, allowing you to use web service interfaces to launch instances with a variety of operating systems, load them with your custom application environment, manage your network’s access permissions, and run your image using as many or few systems as you desire.
 
