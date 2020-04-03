@@ -171,10 +171,6 @@ By default, creating a Lambda function from scratch, adding SNS code, and pressi
 
 More info coming soon.
 
-### CloudWatch
-
-More info coming soon.
-
 ## Gotchas & Lessons Learned
 
 1. Amazon SNS may have reliability issues that are outside of your control; 
