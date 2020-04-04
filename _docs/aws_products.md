@@ -8,6 +8,8 @@ permalink: /aws_products.html
 
 # Welcome to AWS Product Overview
 
+Amazon Web Services offers a broad range of cloud-based products including compute, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security and enterprise applications. These services can help either large organizations or individual developers work faster, lower costs and scale. AWS is a powerhouse that can handle a wide variety of workloads including web and mobile applications, game development, data processing and warehousing, storage, archive, and many others.
+
 ***
 # Student Programs
 ***
@@ -20,11 +22,23 @@ Through AWS Educate, students and educators have access to content and programs 
 
 ## [AWS Student Ambassador Program](https://aws.amazon.com/education/awseducate/student-ambassador-program/)
 Apply to become an ambassador on your campus. Participants are given access to career development and other benefits. Click the heading to apply or learn more.
+
 ***
-# Featured Products
+# AWS Free Tier
+***
+
+## [AWS Free Tier](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc)
+The AWS Free Tier provides users the ability to explore and try out AWS services free of charge up to specified limits for each service. A noteworthy difference between AWS Free Tier and AWS Educate is that some services might not be covered in both. 
+- [Free Tier services](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc)
+- [Educate services](https://s3.amazonaws.com/awseducate-starter-account-services/AWS_Educate_Starter_Accounts_and_AWS_Services.pdf)
+
+***
+# Some Featured Products
 ***
 ## [Amazon EC2](https://aws.amazon.com/ec2/?nc2=h_ql_prod_fs_ec2)
 Amazon EC2 presents a true virtual computing environment, allowing you to use web service interfaces to launch instances with a variety of operating systems, load them with your custom application environment, manage your network’s access permissions, and run your image using as many or few systems as you desire.
+
+With the Free Tier, you get 750 hours of run-time in which you can work on your applications. Note that if you exceed those free hours, you will be charged for additional hours. Refer to the [resources page](aws_resources.html) for how to not get unnecessary charges from using this service.
 
 Create an EC2 instance to remotely run commands using the AWS systems manager.
 
@@ -68,3 +82,10 @@ Lightsail can be used to launch a Windows or linux virtual machine, launch a Wor
 
 ## [Amazon VPC ](https://aws.amazon.com/vpc/?nc2=h_ql_prod_fs_vpc)
 AWS PrivateLink enables customers to access services hosted on AWS easily but securely by keeping all the network traffic within the AWS network.
+
+## [SNS](https://aws.amazon.com/sns/?did=ft_card&trk=ft_card&whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc)
+
+If you want to work on mobiles, try using SNS or Simple Notification Service. SNS is one of the mobile development services that let you manage mobile text messaging. SNS is highly available, durable, secure, and fully management publisher/subscriber service. Using Amazon SNS you can create messaging services for distributed systems and serverless applications. You can also incorporate SNS with other [Free Tier mobile services](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Categories=categories%23mobile).
+
+
+Note that some services maybe included in the Free Tier but not included in the Educate and they come with **LIMITS**. Use these services at your own discretion. Keep in mind to not exceed a service limits so you won't be charged for it!
