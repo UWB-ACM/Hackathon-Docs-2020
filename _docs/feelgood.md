@@ -169,7 +169,24 @@ By default, creating a Lambda function from scratch, adding SNS code, and pressi
 
 ### Simple Notification Service
 
-More info coming soon.
+- [Create your SNS topics](https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html). This is fairly straightforward to do in the console. Give it a logical name which helps you and your collaborators understand what the topic is used for.
+
+- [Manage SMS preferences for Amazon SNS.](https://docs.aws.amazon.com/sns/latest/dg/sms_preferences.html) Generally speaking, if you're sending SMS messages, you probably want to choose the `Transactional` option instead of `Promotional` to ensure that message delivery is as reliable as possible. If you expect heavy utilization of SMS message delivery, consider requesting a budget increase for SMS delivery.
+
+- [Call the SNS SDK from your subscribe Lambda function.](https://docs.aws.amazon.com/sns/latest/dg/sns-tutorial-create-subscribe-endpoint-to-topic.html) Our implementation uses the [Python SDK](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sns.html). When subscribing a phone number as an SMS delivery endpoint, ensure that the subscription call specifies the `Protocol` option as `'sms'`, like the snippet below. The complete Lambda function is available [here](https://github.com/UWB-ACM/feelgood/blob/master/subscribe/lambda_function.py).
+  ```python3
+  import boto3
+  import os
+  
+  client = boto3.client('sns')
+  response = client.subscribe(
+      # use Lambda environment variable to get ARN
+      TopicArn=os.environ[topic],
+      Protocol='sms',
+      Endpoint=userNum)
+  ```
+
+- [Publish messages to topics.](https://docs.aws.amazon.com/sns/latest/dg/sns-tutorial-publish-message-to-topic.html) See the AWS docs for [SMS-flavored procedures for publishing messages](https://docs.aws.amazon.com/sns/latest/dg/sms_publish-to-topic.html), and check out our Lambda implementations for [sending a registration confirmation message to individual numbers](https://github.com/UWB-ACM/feelgood/blob/master/subscribe/lambda_function.py) and [publishing messages to topics](https://github.com/UWB-ACM/feelgood/blob/master/publish/lambda_function.py).
 
 ## Gotchas & Lessons Learned
 

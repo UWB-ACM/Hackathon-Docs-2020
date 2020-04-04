@@ -10,61 +10,48 @@ for potential projects, or get help if you are feeling lost or stuck.
 
 ## Schedule
 
-| Time     | Event                                                        |
-|---------:|:-------------------------------------------------------------|
-|  9:00 AM | Check-in Begins                                              |
-|  9:15 AM | Free Breakfast Provided                                      |
-| 10:00 AM | Opening Ceremony                                             |
-| 10:30 AM | Workshop: Team-Building Mixer, Hosted by ACM-W               |
-| 11:15 AM | Workshop: Intro to Cloud Services                            |
-| 12:30 PM | Free Lunch Provided                                          |
-|  1:15 PM | Lightning Talks: Tales from the Cloud                        |
-|  2:45 PM | Workshop: To Be Announced                                    |
-|  6:00 PM | Free Dinner Provided                                         |
-|  8:00 PM | Project Submissions Due                                      |
-|  8:15 PM | Free Ice Cream Sundae Bar Provided                           |
-|  8:45 PM | Project Presentations                                        |
-|  9:45 PM | Awards Ceremony                                              |
+### Friday April 17th
 
-<!--
-## Useful Info
+| Time     | Event                                                                                             |
+|---------:|:--------------------------------------------------------------------------------------------------|
+|  9:30 AM | Opening Ceremony on [Zoom](https://washington.zoom.us/j/798388880)                                |
+| 10:00 AM | Workshop: Team-Building Mixer, Hosted by ACM-W on [Zoom](https://washington.zoom.us/j/366198766)  |
+| 10:00 AM | Hacking begins!                                                                                   |
+| 11:15 AM | Workshop: Intro to Cloud Services on [Zoom](https://washington.zoom.us/j/951323956)               |
+|  1:15 PM | Lightning Talks: Tales from the Cloud on [Zoom](https://washington.zoom.us/j/573514052)           |
+|  2:45 PM | Workshop (more details TBA)                                                                       |
 
-#### Getting Started
-- [Preparing for the Hackathon]()
-- [Project Ideas]()
-- [What is _the cloud_?]()
-- [Configuring Your Cloud Environment]()
-- [Collaboration Tools]()
+### Saturday April 18th
 
-#### Logistics
- - [Getting Help]() 
- - [Forming a Team]()
- - [Project Submission]()
- - [Hackathon Rules]()
- - [Prize Categories & Criteria]()
- 
-#### Cloud Services
-- [Data Storage]()
-  - [AWS: Simple Storage Services (S3)]()
-  - [Azure Storage]()
-  - [Google Cloud Storage]()
-- [Database Services]()
-  - [AWS: DynamoDB]()
-  - [Azure: Cosmos DB]()
-  - [Google Cloud Firestore]()
-- [Managed Notification Services]()
-  - [AWS: Simple Notification Service (SNS)]()
-  - [Azure Notification Hubs]()
-  - [Google Cloud Pub/Sub]()
-- [Serverless Compute]()
-  - [AWS Lambda]()
-  - [Azure Serverless]()
-  - [Google Cloud Functions]()
-- [Web App Deployment]()
-  - [AWS Elastic Beanstalk]()
-  - [Azure Web App Services]()
-  - [Google Cloud App Engine]()
--->
+| Time     | Event                                                                            |
+|---------:|:---------------------------------------------------------------------------------|
+| Whenever | Day 2 of hacking begins!                                                         |
+| 12:00 PM | Virtual Gaming Session / Hack Break (more details TBA)                           |
+|  5:00 PM | Virtual Bingo / Trivia / Hack Break (more details TBA)                           |
+|  8:00 PM | AFK Photography Contest submissions due in [Discord](https://discord.gg/htz7ayg) |
+
+### Sunday April 19th
+
+| Time     | Event                                                                    |
+|---------:|:-------------------------------------------------------------------------|
+| Whenever | Last day of hacking begins!                                              |
+|  2:00 PM | Submissions due on [DevPost](https://uwbhacks.devpost.com/)              |
+|  3:00 PM | Project Demonstrations on [Zoom](https://washington.zoom.us/j/836897268) |
+|  5:00 PM | Project Assessment Begins                                                |
+
+### Tuesday April 21st
+
+| Time     | Event                                                               |
+|---------:|:------------------------------------------------------------------- |
+|  5:00 PM | Project Assessment Closes                                           |
+|  6:00 PM | Winners announced on [Zoom](https://washington.zoom.us/j/650094283) |
+
+## Get In Touch
+
+Join our [Discord Server](https://discord.gg/EDBbxmt)!
+
+<iframe src="https://discordapp.com/widget?id=688849143111745556&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0"></iframe>
+
 ## Submitting Your Project
 
 See our [docs page]({% link _docs/devpost.md %}) for more information.
