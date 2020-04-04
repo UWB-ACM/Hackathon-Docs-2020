@@ -161,7 +161,7 @@ By default, creating a Lambda function from scratch, adding SNS code, and pressi
 #### Configure CloudWatch Trigger Invocation
 - In order for FeelGood messages to be sent out at a specific time, we use AWS CloudWatch Events/EventBridge as a trigger to run the Lambda publish function at a specific time. 
 
-- First, select an alias for in the menu for the Lambda function that you wish to trigger. In the **Designer** pane, there is a button called **Add trigger**. Clicking on that will bring up a drop down with a number of potential triggering services. 
+- First, select an alias in the menu for the Lambda function that you wish to trigger. In the **Designer** pane, there is a button called **Add trigger**. Clicking on that will bring up a drop-down with a number of potential triggering services. 
 
 - After clicking Add trigger, AWS will present a menu to configure a rule. This rule will trigger the Lambda function. Proceed to name the trigger.
 
