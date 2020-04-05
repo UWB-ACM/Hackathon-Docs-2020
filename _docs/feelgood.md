@@ -141,7 +141,31 @@ More info coming soon.
 
 ### Lambda
 
-More info coming soon.
+AWS Lambda handles all of FeelGood's computation. Within AWS Lambda, there are several important things that must be configured in order for FeelGood's code to operate correctly.
+
+#### Give Lambda access to SNS
+By default, creating a Lambda function from scratch, adding SNS code, and pressing "Test" won't work. Why? Simple, because the Lambda function does not have *access* to SNS. Cloud systems operate on a least-required permissions model, meaning that in order for your Lambda function to access SNS, you must explicitly grant Lambda access to SNS (and any other AWS services you might want Lambda to access). Refer to [AWS documentation on IAM permissions for SNS](https://docs.aws.amazon.com/sns/latest/dg/sns-using-identity-based-policies.html), and check out [the TL;DR explanation of IAM on the documentation site for this hackathon]({% link _docs/aws_secrets.md %}).
+    
+#### Set up environment variables for Lambda functions
+- In order to keep the code looking clean, and to keep our Topic ARNs safe (more on these in the SNS section), we use environment variables to store the names of the SNS topics and their ARNs. These are exactly like environment variables on your computer. They're variables that you can access in your code like any other, but since they're not declared or otherwise modified in the source code, they're invisible and can't be accidentally leaked (say when you upload your code to a public git repository). 
+
+- After you create a Lambda function in the AWS portal, you will be greeted with the function's page. Here you can edit the code directly and modify the function's settings. Right below the code window, you will see a menu item for **Environment Variables**. Click Edit to modify them. The **key** is the variable name, and the **value** is the variable's value. Click Save to save these variables in the function. Now you can access the environment variables in the Lambda function's code by calling it using the key. See [AWS Documentation on Environment Variables](https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html) for more info.
+
+#### Set up aliases for Lambda functions
+- Lambda has a feature called **Aliases**. Aliases are used in combination with function versions to manage what version of the Lambda function will be called by other AWS services. In FeelGood, aliases are used to connect API Gateway endpoints to the publish and subscribe Lambda functions. 
+
+- In order to create an alias, you must first have a **published function version** to connect it to. Under the Actions menu in the function, click on **Publish new version**, enter a description, and publish it to create a new version. This new version will retain the functionality that it has at the time that it is published. Refer to the [AWS Docs on Lambda Versions](https://docs.aws.amazon.com/lambda/latest/dg/configuration-aliases.html) for more detail on what you can do with versioning.
+
+- **Aliases allow you to refer to different versions of a function with the same name.** So for example in API Gateway you can link a GET request with a Lambda function using the alias "API_GET_Version". Then, no matter what function version you connect to that alias, be it 1, 10, or 1000, you will not need to change the API Gateway configuration when you update the Lambda code. You do however, need to modify which function version the alias will point to each time you publish a new version. You *can* alias to the `$LATEST` version in order to have Lambda automatically use whatever code exists when you Save the function, but this is not recommended. You should only alias to function versions that you have tested and verified to work. Further documentation on function aliases is available [here](https://docs.aws.amazon.com/lambda/latest/dg/configuration-aliases.html).
+    
+#### Configure CloudWatch Trigger Invocation
+- In order for FeelGood messages to be sent out at a specific time, we use AWS CloudWatch Events/EventBridge as a trigger to run the Lambda publish function at a specific time. 
+
+- First, select an alias in the menu for the Lambda function that you wish to trigger. In the **Designer** pane, there is a button called **Add trigger**. Clicking on that will bring up a drop-down with a number of potential triggering services. 
+
+- After clicking Add trigger, AWS will present a menu to configure a rule. This rule will trigger the Lambda function. Proceed to name the trigger.
+
+- **Schedule expression** is where you define the time interval that the function should be triggered at. FeelGood uses cron syntax identical to the syntax used to schedule recurring jobs in native Unix systems; a good reference on cron syntax we found useful is available [here](https://www.adminschoice.com/crontab-quick-reference). Cron syntax uses UTC time. In FeelGood, the trigger uses the cron syntax `cron(0 18 * * ? *)`, which means every day at 10 AM PST/11 AM PDT. We recommend looking up a converter from UTC to your timezone. Saving and enabling this trigger will run the function at the specified time. AWS has a good explainer on creating CloudWatch Events Rules [here](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/Create-CloudWatch-Events-Scheduled-Rule.html).
 
 ### Simple Notification Service
 
@@ -163,10 +187,6 @@ More info coming soon.
   ```
 
 - [Publish messages to topics.](https://docs.aws.amazon.com/sns/latest/dg/sns-tutorial-publish-message-to-topic.html) See the AWS docs for [SMS-flavored procedures for publishing messages](https://docs.aws.amazon.com/sns/latest/dg/sms_publish-to-topic.html), and check out our Lambda implementations for [sending a registration confirmation message to individual numbers](https://github.com/UWB-ACM/feelgood/blob/master/subscribe/lambda_function.py) and [publishing messages to topics](https://github.com/UWB-ACM/feelgood/blob/master/publish/lambda_function.py).
-
-### CloudWatch
-
-More info coming soon.
 
 ## Gotchas & Lessons Learned
 
