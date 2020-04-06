@@ -89,3 +89,4 @@ If you want to work on mobiles, try using SNS or Simple Notification Service. SN
 
 
 Note that some services maybe included in the Free Tier but not included in the Educate and they come with **LIMITS**. Use these services at your own discretion. Keep in mind to not exceed a service limits so you won't be charged for it!
+
