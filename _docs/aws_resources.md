@@ -81,8 +81,8 @@ def lambda_handler(event, context):
 
 #### Export using DynamoDB
 
-.CSV (by hand)
-```
+##### Export to CSV Using Built-in Functionality
+
 DynamoDB actually has inbuilt exporting for .CSV files!
 Just follow these steps:
 - Navigate to the DynamdoDB tables tab
