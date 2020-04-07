@@ -35,7 +35,7 @@ permalink: /aws_resources.html
 When considering importing and exporting database information, there are a number of approaches a developer can take. Two common approaches involving creating your own function, using Lambda, or any other scripting service, or using a pipeline. This section covers some of the different use cases for those options in AWS, as well as provides some sample code for exporting/importing by hand.
 
 ### Pipeline
-When considering how to import data sets, AWS's Data Pipeline service is a service that eleminates many of the manual steps a developer would have to take. It is a process that is flexible to the dataset, scalable, and easily processed in parallel - which means it can process a lot of data very quickly.
+When considering how to import data sets, AWS's Data Pipeline service is a service that eliminates many of the manual steps a developer would have to take. It is a process that is flexible to the dataset, scalable, and easily processed in parallel - which means it can process a lot of data very quickly.
 
 As a turnkey solution, Data Pipeline works with most datasets, and can be configured through a drag-and drop interface. However, its flexibility comes at a cost, even when your import or export fails. For larger projects, such as company databases, where information needs to be consistantly moving, this is a great solution. However, for smaller projects, it can easily eat through the budget given for the Hackathon, despite it's effectiveness. As such, smaller projects are safer with building their own import/export functions with Lambda.
 
