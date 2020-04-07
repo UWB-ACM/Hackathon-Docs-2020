@@ -108,7 +108,6 @@ DynamoDB does not have inbuilt exporting of .JSON files, but it is not to diffic
 To do so, follow the steps listed above to export a .CSV file. Then, convert that .CSV file into .JSON. It's that easy!
 
 There are a number of sites that can do the conversion, but an example of one such sight can be found here: https://csvjson.com/csv2json
-```
 
 .JSON (Lambda)
 ```python
