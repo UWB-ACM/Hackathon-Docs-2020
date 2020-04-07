@@ -100,7 +100,6 @@ Just follow these steps:
 - A .CSV file will be automatically saved to your computer
 
 This can be done for as many, or as little table items as needed.
-```
 
 .JSON (by hand)
 ```
