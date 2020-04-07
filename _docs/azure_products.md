@@ -35,13 +35,13 @@ Azure offers multiple solutions for passing messages and events. [Azure Queue St
 [Azure Monitor](https://azure.microsoft.com/en-us/services/monitor/) allows users to collect, store, and perform analytics on telemetry data from various Azure services. Monitor has a specialized analytic engine and uses machine learning to help discern patterns and generate insights from collected telemetry data. Monitor also integrates with DevOps tools for a streamlined workflow. AWS offers similar features in [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) and [AWS X-Ray](https://aws.amazon.com/xray/). [Cloud Logging](https://cloud.google.com/logging) and [Cloud Monitoring](https://cloud.google.com/monitoring) are GCP's competing offerings. 
 
 # Machine Learning
-More to come soon!
+There are many machine learning products available on Azure for different uses cases. These include training and deploying models, working with bots, Natural Language Processing, Speech, Computer Vision, Contextual Services, and more. Check out Azure's [primer on their machine learning technologies](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/machine-learning-at-scale) for a better understanding of what products to use and when to use them. AWS's machine learning page is also available [here](https://aws.amazon.com/machine-learning/), and GCP's [here](https://cloud.google.com/products/ai/).
 
 # Internet of Things
-More to come soon!
+Azure's IoT offering is comprised of several products. Firstly, [Azure IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub/#overview) is the main service used to manage IoT deployments and communication between IoT devices through Azure. [Azure IoT Edge](https://azure.microsoft.com/en-us/services/iot-edge/) allows for cloud IoT logic to be deployed directly to an edge device, thus allowing a local device to service local requests or pass messages between local devices. [Event Hubs](https://azure.microsoft.com/en-us/services/event-hubs/) handle massive ingestion of small data pieces from IoT devices and processes them, routing them to the correct endpoints. Lastly, [Digital Twins](https://azure.microsoft.com/en-us/services/digital-twins/) allows users to virtually map out physical IoT deployments and model interactions between devices and people. This allows for working with devices and data spatially instead of by IDs or other less descriptive identifiers. AWS offers all of these features in their own products. Briefly these are: [AWS IoT](https://aws.amazon.com/iot/), [AWS Greengrass](https://aws.amazon.com/greengrass/), [Kinesis Streams](https://aws.amazon.com/kinesis/data-streams/), [Kinesis Firehose](https://aws.amazon.com/kinesis/data-firehose/), [AWS IoT Things Graph](https://aws.amazon.com/iot-things-graph/). GCP's offerings are grouped together under the [Google Cloud IoT](https://cloud.google.com/solutions/iot/) umbrella.
 
 # Security & Identity Management
 More to come soon!
 
 # More Resources
-More to come soon!
+More to come soon! [Links to providers' comparison pages, links to docs pages for other providers]
