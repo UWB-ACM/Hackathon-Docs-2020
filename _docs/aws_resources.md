@@ -37,12 +37,12 @@ When considering importing and exporting database information, there are a numbe
 ### AWS Data Pipeline
 When considering how to import data sets, AWS's Data Pipeline service is a service that eliminates many of the manual steps a developer would have to take. It is a process that is flexible to the dataset, scalable, and easily processed in parallel - which means it can process a lot of data very quickly.
 
-As a turnkey solution, Data Pipeline works with most datasets, and can be configured through a drag-and drop interface. However, its flexibility comes at a cost, even when your import or export fails. For larger projects, such as company databases, where information needs to be consistantly moving, this is a great solution. However, for smaller projects, it can easily eat through the budget given for the Hackathon, despite it's effectiveness. As such, smaller projects are safer with building their own import/export functions with Lambda.
+As a turnkey solution, Data Pipeline works with most datasets, and can be configured through a drag-and drop interface. However, its flexibility comes at a cost, even when your import or export fails. For larger projects, such as company databases, where information needs to be consistantly moving, this is a great solution. However, for smaller projects, it can easily eat through the budget given for the Hackathon, despite its effectiveness. As such, smaller projects are safer with building their own import/export functions with Lambda.
 
 ### Lambda
 This option takes a bit of programming, and can be frustrating to implement, as it is not as flexible as Data Pipeline can be with converting information. However, it is significantly cheaper for small projects, and the user is in full control of each aspect of the process.
 
-Lambda is a scripting service on AWS which works based on triggers, code, and output destination. For importing/exporting data, you would need to build your own Lambda function to handle for cases. It's not flexible like pipeline, and you will need to handle the parsing logic yourself.
+Lambda is a serverless computation product on AWS which works based on triggers, code, and output destination. For importing/exporting data, you would need to build your own Lambda function to handle for cases. It's not flexible like Pipeline, and you will need to handle the parsing logic yourself.
 
 However - this solution works great for smaller projects. Learning how to set triggers for importing data, and writing code for exporting your data, allows for the developer to have full control over what AWS is doing with their data, and allows you to avoid any hidden fees. It can serve your exact purpose, and can be changed as needed. Generally, for independant projects on a budget, making your own Lambda function would be the best choice. It's also a lot of fun!
 
@@ -103,7 +103,7 @@ This can be done for as many, or as little table items as needed.
 
 ##### Export Data to JSON By Hand
 
-DynamoDB does not have inbuilt exporting of .JSON files, but it is not to difficult to get your information exported with using Data Pipeline, or Lambda. It is a bit of a brute force solution, but it is simple and functional.
+DynamoDB does not have inbuilt exporting of .JSON files, but it is not too difficult to export your information using Data Pipeline or Lambda. It is a bit of a brute force solution, but it is simple and functional.
 
 To do so, follow the steps listed above to export a .CSV file. Then, convert that .CSV file into .JSON. It's that easy!
 
