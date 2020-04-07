@@ -6,7 +6,7 @@ order: 1
 permalink: /azure_products.html
 ---
 
-# Before we get started...
+# Before Getting Started...
 
 This page covers what some of the most commonly used Azure services are, what they do, and where you can get detailed documentation. We'll also briefly mention which services on other cloud platforms offer similar features. Before getting started, visit the [Azure free trial page](https://azure.microsoft.com/en-us/free/)  to familiarize yourself with the free tier offerings currently available. If you have not already, visit the [cloud account setup page on the documentation site for this hackathon]({% link _docs/cloud_account_setup.md %}) to learn how to sign up for a free account.
 
@@ -47,4 +47,22 @@ Azure offers multiple resources for building web apps. These can be websites, AP
 Azure's security features are numerous and varied, as each of their products needs to have its own security features. Thus, it is impractical to cover them all here. The main products to be aware of are [Azure Active Directory](https://azure.microsoft.com/en-us/services/active-directory/) and [Role-based Access Control](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview). These two services allow for control over who can access an Azure account and what permissions they have. For a detailed overview of all of Azure's security features, see [Azure security documentation](https://docs.microsoft.com/en-us/azure/security/). For reference, here is [AWS' security page](https://aws.amazon.com/security/) and [GCP's trust and security page](https://cloud.google.com/security/).
 
 # More Resources
-More to come soon! [Links to providers' comparison pages, links to docs pages for other providers. good integration with VS]
+Here are some helpful links that offer more information into Azure products and services. Finally, don't underestimate the power of a quick internet search! There are many resources available to make learning and working with Azure easier.
+
+## Other Docs Pages on Azure
+- [Azure Resources]({% link _docs/azure_resources %})
+- [Azure Secrets]({% link _docs/azure_secrets %})
+
+## From the Internet
+- [Azure Website](https://azure.microsoft.com/en-us/)
+- [Complete Azure Product List](https://azure.microsoft.com/en-us/services/)
+- [Azure Documentation](https://docs.microsoft.com/en-us/azure/?product=featured)
+- [Azure Tutorials](https://docs.microsoft.com/en-us/learn/azure/)
+- [Azure vs. AWS Services Comparison](https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services)
+- [Azure for AWS Professionals](https://docs.microsoft.com/en-us/azure/architecture/aws-professional/)
+- [Azure Integrations for Visual Studio](https://visualstudio.microsoft.com/vs/features/azure/)
+- [Azure CLI Getting Started Guide](https://docs.microsoft.com/en-us/cli/azure/get-started-with-azure-cli?view=azure-cli-latest)
+- [Azure Pricing](https://azure.microsoft.com/en-us/pricing/)
+- [Azure for Students](https://azure.microsoft.com/en-us/free/students/)
+
+
