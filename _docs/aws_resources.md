@@ -148,7 +148,7 @@ def lambda_handler(event, context):
 
 ## Reserved Words
 
-When working with tables in AWS, it's important to keep mind of a few words that should not be used. These are words in use by the database itself for a variety of different reasons, and using these terms as a primary key, or sort key, will cause errors when trying to call those columns from a JavaScript call.
+When working with DynamoDB tables in AWS, it's important to keep in mind that there are certain words that are reserved by DynamoDB. These are words in use by the database itself for a variety of different reasons, and using these terms as a primary key, or sort key, will cause errors when trying to call those columns from a JavaScript call.
 
 A few example words are:
 - LOCATION
