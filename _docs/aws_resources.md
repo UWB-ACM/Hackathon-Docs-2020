@@ -46,7 +46,7 @@ Lambda is a scripting service on AWS which works based on triggers, code, and ou
 
 However - this solution works great for smaller projects. Learning how to set triggers for importing data, and writing code for exporting your data, allows for the developer to have full control over what AWS is doing with their data, and allows you to avoid any hidden fees. It can serve your exact purpose, and can be changed as needed. Generally, for independant projects on a budget, making your own Lambda function would be the best choice. It's also a lot of fun!
 
-#### Import using DynamoDB
+#### Import Into DynamoDB With Lambda
 
 .JSON
 ```python
