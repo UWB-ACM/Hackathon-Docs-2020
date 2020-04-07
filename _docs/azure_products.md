@@ -49,9 +49,9 @@ Azure's security features are numerous and varied, as each of their products nee
 # More Resources
 Here are some helpful links that offer more information into Azure products and services. Finally, don't underestimate the power of a quick internet search! There are many resources available to make learning and working with Azure easier.
 
-## Other Docs Pages on Azure
-- [Azure Resources]({% link _docs/azure_resources %})
-- [Azure Secrets]({% link _docs/azure_secrets %})
+## From the Hackathon Docs
+- [Azure Resources]({% link _docs/azure_resources.md %})
+- [Azure Secrets]({% link _docs/azure_secrets.md %})
 
 ## From the Internet
 - [Azure Website](https://azure.microsoft.com/en-us/)
