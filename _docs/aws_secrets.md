@@ -37,7 +37,7 @@ Next follow these steps to create one or multiple IAM users depending on the gro
 
 4. This step is optional, you can fill out the fields or click next 
 
-![step4](/assets/iam_step4(optional).png)
+   ![step4](/assets/iam_step4(optional).png)
 
 
 5. Finally, review your information and click Create User. 
