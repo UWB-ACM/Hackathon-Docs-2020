@@ -44,7 +44,7 @@ Next follow these steps to create one or multiple IAM users depending on the gro
 
 **Remember to download the csv file so you have all your information like username and password that you won't forget later**
 
-![step5](/assets/iam_final.png)
+   ![step5](/assets/iam_final.png)
 
 
 ***
