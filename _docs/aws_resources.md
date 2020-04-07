@@ -167,7 +167,7 @@ Before finalizing your database schema, be sure to check ALL TERMS against these
 For a full list of terms, check out the resource for DynamoDB: [Reserved Words in DynamoDB
 PDF](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ReservedWords.html)
 
-Each AWS database service will have its own set of reserved words, so be sure to check those out early, and reference them often before finalizing your tables.
+Each AWS service will have its own set of reserved words, so be sure to check them out prior to finalizing your implementation.
 
 
 ## Avoid Charges For Common Services
