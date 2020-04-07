@@ -27,7 +27,7 @@ Next follow these steps to create one or multiple IAM users depending on the gro
 
 2. Enter a descriptive name for an IAM user, check both Access Type boxes, create a password as in the snippet below, then click next
 
-![step2](/assets/iam_step2.png)
+   ![step2](/assets/iam_step2.png)
 
 
 3. Follow the snippet below to grant the user appropriate permissions, then click next
@@ -50,4 +50,3 @@ Next follow these steps to create one or multiple IAM users depending on the gro
 ***
 Note that doing this is helpful if you have private information like credit card number that you used when creating your AWS account. Instead of sharing your root account with your group members creating IAM users will help protect your private information while it's still letting you and your groupmates have full control to services so everybody can work together. 
 ***
-
