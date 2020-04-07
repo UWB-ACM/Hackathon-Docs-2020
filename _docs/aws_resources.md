@@ -40,7 +40,7 @@ When considering how to import data sets, AWS's Data Pipeline service is a servi
 As a turnkey solution, Data Pipeline works with most datasets, and can be configured through a drag-and drop interface. However, its flexibility comes at a cost, even when your import or export fails. For larger projects, such as company databases, where information needs to be consistantly moving, this is a great solution. However, for smaller projects, it can easily eat through the budget given for the Hackathon, despite it's effectiveness. As such, smaller projects are safer with building their own import/export functions with Lambda.
 
 ### Lambda
-This option takes a bit of programming, and can be frustrating to implement, as it is not as flexible as Data Pipeline can be with converting information. However, it's a heckuva lot cheaper for small projects, and the user is in full control over what they are doing.
+This option takes a bit of programming, and can be frustrating to implement, as it is not as flexible as Data Pipeline can be with converting information. However, it is significantly cheaper for small projects, and the user is in full control of each aspect of the process.
 
 Lambda is a scripting service on AWS which works based on triggers, code, and output destination. For importing/exporting data, you would need to build your own Lambda function to handle for cases. It's not flexible like pipeline, and you will need to handle the parsing logic yourself.
 
