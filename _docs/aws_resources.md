@@ -223,4 +223,3 @@ How to create EC2 instance in AWS step by step, including creating the EC2 resou
 This video will show how to use a PuTTY private key to connect to your Amazon EC2 Linux instance.
 
 * [EC2 Linux Launch Video Available Here](https://www.youtube.com/watch?v=v0g1M5bb9u4)
->>>>>>> 93d79f181255e129c3e07df0c66532f77ef89863
