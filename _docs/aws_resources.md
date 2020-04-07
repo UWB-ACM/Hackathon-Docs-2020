@@ -32,7 +32,7 @@ permalink: /aws_resources.html
 
 ## Importing Large Datasets
 
-When considering importing and exporting database information, there are a number of approaches a developer can take. Two common approaches involving creating your own function, using Lambda, or any other scripting service, or using a pipeline. This section covers some of the different use cases for those options in AWS, as well as provides some sample code for exporting/importing by hand.
+When considering importing and exporting database information, there are a number of approaches a developer can take. Two common approaches involving creating your own function using a service like AWS Lambda, or using a pipeline. This section covers some of the different use cases for those options in AWS, as well as provides some sample code for exporting/importing by hand.
 
 ### AWS Data Pipeline
 When considering how to import data sets, AWS's Data Pipeline service is a service that eliminates many of the manual steps a developer would have to take. It is a process that is flexible to the dataset, scalable, and easily processed in parallel - which means it can process a lot of data very quickly.
