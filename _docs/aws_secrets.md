@@ -32,7 +32,7 @@ Next follow these steps to create one or multiple IAM users depending on the gro
 
 3. Follow the snippet below to grant the user appropriate permissions, then click next
 
-![step3](/assets/iam_step3.png)
+   ![step3](/assets/iam_step3.png)
 
 
 4. This step is optional, you can fill out the fields or click next 
