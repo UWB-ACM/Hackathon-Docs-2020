@@ -101,8 +101,8 @@ Just follow these steps:
 
 This can be done for as many, or as little table items as needed.
 
-.JSON (by hand)
-```
+##### Export Data to JSON By Hand
+
 DynamoDB does not have inbuilt exporting of .JSON files, but it is not to difficult to get your information exported with using Data Pipeline, or Lambda. It is a bit of a brute force solution, but it is simple and functional.
 
 To do so, follow the steps listed above to export a .CSV file. Then, convert that .CSV file into .JSON. It's that easy!
