@@ -162,7 +162,7 @@ A few example words are:
 
 They will only cause problems for you down the line!
 
-Before finalizing your database schema, be sure to check ALL TERMS against these reserved words. If you use on of these terms for your partition key, or sort key, there will be no way to change them. Failure to double check may mean your group will have to terminate your table, and recreate it so it no longer uses these terms.
+Before finalizing your database schema, be sure to check ALL TERMS against these reserved words. If you use one of these terms for your partition or sort key, there will be no way to change them. Failure to double check may mean your group will have to terminate your table and recreate it so it no longer uses these terms.
 
 For a full list of terms, check out the resource for DynamoDB: [Reserved Words in DynamoDB
 PDF](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ReservedWords.html)
