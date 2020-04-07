@@ -47,6 +47,4 @@ Next follow these steps to create one or multiple IAM users depending on the gro
    ![step5](/assets/iam_final.png)
 
 
-***
-Note that doing this is helpful if you have private information like credit card number that you used when creating your AWS account. Instead of sharing your root account with your group members creating IAM users will help protect your private information while it's still letting you and your groupmates have full control to services so everybody can work together. 
-***
+***Note that doing this is helpful if you have private information like credit card number that you used when creating your AWS account. Instead of sharing your root account with your group members creating IAM users will help protect your private information while it's still letting you and your groupmates have full control to services so everybody can work together.***
