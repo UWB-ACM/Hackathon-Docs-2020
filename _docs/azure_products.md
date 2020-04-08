@@ -6,7 +6,9 @@ order: 1
 permalink: /azure_products.html
 ---
 
-# Before Getting Started...
+# Azure Product Overview
+
+## Before Getting Started...
 
 This page covers what some of the most commonly used Azure services are, what they do, and where you can get detailed documentation. We'll also briefly mention which services on other cloud platforms offer similar features. Before getting started, visit the [Azure free trial page](https://azure.microsoft.com/en-us/free/)  to familiarize yourself with the free tier offerings currently available. If you have not already, visit the [cloud account setup page on the documentation site for this hackathon]({% link _docs/cloud_account_setup.md %}) to learn how to sign up for a free account.
 
@@ -64,5 +66,4 @@ Here are some helpful links that offer more information into Azure products and 
 - [Azure CLI Getting Started Guide](https://docs.microsoft.com/en-us/cli/azure/get-started-with-azure-cli?view=azure-cli-latest)
 - [Azure Pricing](https://azure.microsoft.com/en-us/pricing/)
 - [Azure for Students](https://azure.microsoft.com/en-us/free/students/)
-
 
