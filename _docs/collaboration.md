@@ -25,14 +25,11 @@ To keep track of your code and prevent issues utilize the following:
 ## Collaborative Cloud
 Check out [our guide on choosing a cloud provider](https://docs.uwbhacks.com/cloud_setup.html) to pick a cloud platform to use for your project.
 
-When you're ready, you can add users and give them permissions to use account services for your project. You can choose to share your administrator credentials, or you can create user accounts and give them specific permissions. When creating user accounts, you can follow the instructions for [AWS](https://docs.aws.amazon.com/marketplace/latest/userguide/marketplace-management-portal-user-access.html), [GCP](https://cloud.google.com/appengine/docs/standard/go/access-control#developers), and [Azure](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory).
+
 
 ### Sharing an Account
-#### AWS
-- text
-#### Azure
-- text
-#### GCP
-- text
+If your team needs to work on a single Cloud account, you can choose to share your administrator credentials; however, this is not reccommended. Even though you may be working with friends, sharing the root admin account allows for anyone to see the credit card information on file, and additional sensitive materials. As such, it is advised that you create user accounts and give them specific permissions.
+
+When you're ready, you can add users and give them permissions to use account services for your project.   When creating user accounts, you can follow the instructions for [AWS](https://docs.aws.amazon.com/marketplace/latest/userguide/marketplace-management-portal-user-access.html), [GCP](https://cloud.google.com/appengine/docs/standard/go/access-control#developers), and [Azure](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory).
 
 ## Video Conferencing
