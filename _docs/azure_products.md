@@ -10,7 +10,9 @@ permalink: /azure_products.html
 
 ## Before Getting Started...
 
-This page covers what some of the most commonly used Azure services are, what they do, and where you can get detailed documentation. We'll also briefly mention which services on other cloud platforms offer similar features. Before getting started, visit the [Azure free trial page](https://azure.microsoft.com/en-us/free/)  to familiarize yourself with the free tier offerings currently available. If you have not already, visit the [cloud account setup page on the documentation site for this hackathon]({% link _docs/cloud_account_setup.md %}) to learn how to sign up for a free account.
+This page covers what some of the most commonly used Azure services are, what they do, and where you can get detailed documentation. We'll also briefly mention which services on other cloud platforms offer similar features. 
+
+Before getting started, visit the [Azure free trial page](https://azure.microsoft.com/en-us/free/)  to familiarize yourself with the free tier offerings currently available. If you have not already, visit the [cloud account setup page on the documentation site for this hackathon]({% link _docs/cloud_account_setup.md %}) to learn how to sign up for a free account.
 
 # Serverless Computing
 Azure's serverless computing offering is called [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview). These functions do not require the user to configure any server infrastructure. Azure function usage is billed on a pay-per-use model. Azure functions support multiple languages including C#, Java, Python, and Javascript to name a few. Azure functions run only when triggered. Triggers can include schedules, messages, HTTP requests, and more. Azure functions also support package/dependency managers like NuGet and NPM as well as OAuth integrations with Azure Active Directory, Google, Facebook, and others. Additionally, rich integrations with other Azure services are supported. AWS' counterpart to this service is [AWS Lambda](https://aws.amazon.com/lambda/), while GCP has [Cloud Functions](https://cloud.google.com/functions). 
