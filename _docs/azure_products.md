@@ -62,7 +62,11 @@ Azure offers multiple products for passing messages and events. [Azure Queue Sto
 AWS offers similar features in [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) and [AWS X-Ray](https://aws.amazon.com/xray/). [Cloud Logging](https://cloud.google.com/logging) and [Cloud Monitoring](https://cloud.google.com/monitoring) are GCP's competing offerings. 
 
 # Machine Learning
-There are many machine learning products available on Azure for different uses cases. These include training and deploying models, working with bots, Natural Language Processing, Speech, Computer Vision, Contextual Services, and more. Check out Azure's [primer on their machine learning technologies](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/machine-learning-at-scale) for a better understanding of what products to use and when to use them. AWS' machine learning page is also available [here](https://aws.amazon.com/machine-learning/), and GCP's [here](https://cloud.google.com/products/ai/).
+There are many machine learning products available on Azure for different uses cases. These include training and deploying models, working with bots, Natural Language Processing, Speech, Computer Vision, Contextual Services, and more. 
+
+Check out Azure's [primer on their machine learning technologies](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/machine-learning-at-scale) for a better understanding of what products to use and when to use them. 
+
+AWS' machine learning page is also available [here](https://aws.amazon.com/machine-learning/), and GCP's [here](https://cloud.google.com/products/ai/).
 
 # Internet of Things
 Azure's IoT offering is comprised of several products. 
