@@ -19,7 +19,7 @@ For communication in between your team, you can look into the following:
 To keep track of your code and prevent issues utilize the following:
 - [Git](git-scm.com) = Track changes and sync your code with others
 - [GitHub](Github.com) = Keep all your coding files in sync and help track changes in a Public or Private repo.
-*Note:* Github has something called "Projects" which is very much like Trello boards. So you can take advantage of these features!
+  *Note:* Github has something called "Projects" which is very much like Trello boards. So you can take advantage of these features!
 - [BitBucket.com](BitBucket.com) = Much like GitHub, but with private repositories.
 
 ## Collaborative Cloud
