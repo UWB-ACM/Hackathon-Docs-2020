@@ -44,6 +44,6 @@ Zoom is videoconferencing software that that allows for the creation of meeting 
 
 [Get Zoom here!](https://zoom.us/)
 #### Slack
-A software that is free for small groups, allows for seperate channels, and group video chat. Clean and accessable design, which allows for clear seperation between group chats. This software retains a history of messages.
+Slack is messaging software that is free for small groups, allows for separate channels, and group video chat. Clean and accessible design, which allows for clear separation between group chats. This software retains a history of messages.
 
 [Get Slack here!](https://slack.com/intl/en-gb/video-conferencing)
