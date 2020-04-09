@@ -40,7 +40,7 @@ Discord is free software for text and video chats that allows for the creation o
 
 [Get Discord here](https://discordapp.com/) and [join our event server here](https://discord.gg/EDBbxmt).
 #### Zoom
-Zoom is videoconferencing software that that allows for the creation of meeting rooms, direct messaging, screen sharing, and whiteboards to draw notes on. It can be good for giving one-sided speeches, or group conversations. Zoom Pro is free for UWB students. This software does not retain a history of your messages.
+Zoom is a videoconferencing software that that allows for the creation of meeting rooms, direct messaging, screen sharing, and whiteboards to draw notes on. It can be good for giving one-sided speeches, or group conversations. Zoom Pro is free for UWB students. This software does not retain a history of your messages.
 
 [Get Zoom here!](https://zoom.us/)
 #### Slack
