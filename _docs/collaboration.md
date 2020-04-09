@@ -36,7 +36,7 @@ When you're ready, you can add users and give them permissions to use account se
 As the UWB Hacks Spring 2020 hackathon is virtual this year, here are some options for video conferencing that can be used:
 
 #### Discord
-A free software that allows for the creation of seperate groups, direct messaging, screen sharing, and group chats. Easy and casual vibe, that is quick to set up. This software retains a history of messages.
+Discord is free software for text and video chats that allows for the creation of separate groups (aka servers), direct messaging, screen sharing, and group chats. It has an easy and casual vibe that is quick to set up. This software retains a history of messages.
 
 [Get Discord here](https://discordapp.com/) and [join our event server here](https://discord.gg/EDBbxmt).
 #### Zoom
