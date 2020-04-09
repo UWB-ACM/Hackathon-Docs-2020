@@ -28,7 +28,7 @@ Check out [our guide on choosing a cloud provider](https://docs.uwbhacks.com/clo
 
 
 ### Sharing an Account
-If your team needs to work on a single Cloud account, you can choose to share your administrator credentials; however, this is not reccommended. Even though you may be working with friends, sharing the root admin account allows for anyone to see the credit card information on file, and additional sensitive materials. As such, it is advised that you create user accounts and give them specific permissions.
+If your team needs to work on a single cloud account, you can choose to share your administrator credentials; however, this is not recommended. Even though you may be working with friends, sharing the root admin account allows for anyone with access to view sensitive materials, grant additional users administrative privileges, and change the password for the root account, among other nefarious actions. As such, it is advised that you create new accounts in provider's identity management service and give the new user more limited permissions.
 
 When you're ready, you can add users and give them permissions to use account services for your project.   When creating user accounts, you can follow the instructions for [AWS](https://docs.aws.amazon.com/marketplace/latest/userguide/marketplace-management-portal-user-access.html), [GCP](https://cloud.google.com/appengine/docs/standard/go/access-control#developers), and [Azure](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory).
 
