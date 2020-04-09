@@ -137,14 +137,26 @@ We used to the following resources as a guide for configuring S3 buckets to host
 
 ### API Gateway
 
-More info coming soon.
+There are multiple types of APIs that can be built using API Gateway, such as REST, HTTP, or WebSocket. This document will focus specifically on REST APIs. AWS' API Gateway documentation has a [helpful tutorial that covers creating a REST API with Lambda Integrations](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-getting-started-with-rest-apis.html). This was the approach taken for FeelGood.
+
+#### Create a Resource
+A resource is something that can be accessed through the REST API using CRUD operations. GCP has a good [explanation of REST APIs and resources](https://cloud.google.com/apis/design/resources) if you are unfamiliar with the concept or would like to refresh your memory. In API Gateway, the resource also represents your endpoint. For example, on a hypothetical website for a car dealership, the URL might be `www.cars.com/buycar`. The endpoint in this scenario is `/buycar`. Each endpoint has its own set of methods.
+
+#### Create a Method
+A method is the actual operation to be performed on the resource, such as GET, PUT, POST, DELETE, etc. The method's settings are where integrations with Lambda functions including input pass-through are set. See the [API Gateway page on REST API methods](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-method-settings.html) for a detailed tutorial.
+
+#### Setup CORS
+CORS stands for Cross-Origin Resource Sharing. This is required to tell your browser that it is safe to access certain API endpoints. Whether or not CORS is required depends on what the API does. See [Mozilla's MDN Docs on CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) for more information on what it is and why it's needed. See [API Gateway Docs on Enabling CORS for REST APIs](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-cors.html) for a tutorial on enabling CORS.
+
+#### Deploy the API
+Once everything is setup correctly, all that's left is to deploy the API. You can create **stages** like "staging" and "production" and deploy different versions on the API to each stage. It is recommended to deploy a staging version of the API for testing before deployed the production version of the API for use in an application. *Note that the name of the stage will be part of the endpoint URL*. See [API Gateway Docs on Deploying a REST API](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-deploy-api.html) for a detailed walkthrough.
 
 ### Lambda
 
 AWS Lambda handles all of FeelGood's computation. Within AWS Lambda, there are several important things that must be configured in order for FeelGood's code to operate correctly.
 
 #### Give Lambda access to SNS
-By default, creating a Lambda function from scratch, adding SNS code, and pressing "Test" won't work. Why? Simple, because the Lambda function does not have *access* to SNS. Cloud systems operate on a least-required permissions model, meaning that in order for your Lambda function to access SNS, you must explicitly grant Lambda access to SNS (and any other AWS services you might want Lambda to access). Refer to [AWS documentation on IAM permissions for SNS](https://docs.aws.amazon.com/sns/latest/dg/sns-using-identity-based-policies.html), and check out [the TL;DR explanation of IAM on the documentation site for this hackathon]({% link _docs/aws_secrets.md %}).
+By default, creating a Lambda function from scratch, adding SNS code, and pressing "Test" won't work. Why? Simple, because the Lambda function does not have *access* to SNS. Cloud systems operate on a least-required permissions model, meaning that in order for your Lambda function to access SNS, you must explicitly grant Lambda access to SNS (and any other AWS services you might want Lambda to access). Refer to [AWS documentation on IAM permissions for SNS](https://docs.aws.amazon.com/sns/latest/dgsns-using-identity-based-policies.html), and check out [the TL;DR explanation of IAM on the documentation site for this hackathon]({% link _docs/aws_secrets.md %}).
     
 #### Set up environment variables for Lambda functions
 - In order to keep the code looking clean, and to keep our Topic ARNs safe (more on these in the SNS section), we use environment variables to store the names of the SNS topics and their ARNs. These are exactly like environment variables on your computer. They're variables that you can access in your code like any other, but since they're not declared or otherwise modified in the source code, they're invisible and can't be accidentally leaked (say when you upload your code to a public git repository). 
