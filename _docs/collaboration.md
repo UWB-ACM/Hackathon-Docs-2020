@@ -38,7 +38,7 @@ As the UWB Hacks Spring 2020 hackathon is virtual this year, here are some optio
 #### Discord
 A free software that allows for the creation of seperate groups, direct messaging, screen sharing, and group chats. Easy and casual vibe, that is quick to set up. This software retains a history of messages.
 
-[Get Discord here!](https://discordapp.com/)
+[Get Discord here](https://discordapp.com/) and [join our event server here](https://discord.gg/EDBbxmt).
 #### Zoom
 A software that that allows for the creation of meeting rooms, direct messaging, screen sharing, and whiteboards to draw notes on. It can be good for giving one-sided speeches, or group conversations. Zoom Pro is free for UWB students. This software does not retain a history of your messages.
 
