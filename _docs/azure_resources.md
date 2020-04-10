@@ -7,3 +7,5 @@ permalink: /azure_resources.html
 ---
 
 # Azure Resources, SDK Links, Tutorials, and Helpful Tidbits
+
+## SDK Links
