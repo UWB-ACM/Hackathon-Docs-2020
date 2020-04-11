@@ -6,7 +6,7 @@ order: 3
 permalink: /azure_resources.html
 ---
 
-# Azure Resources, SDK Links, Tutorials, and Helpful Tidbits
+# Azure Resources, SDK Links, Tutorials, Helpful Tidbits, and Permissions Management
 
 ## SDKs and Tools
 ### SDKs
@@ -43,3 +43,7 @@ Azure offers two types of SDKs. Unified SDKs are built on a "common core" and ar
 
 ## Helpful Tidbits
 - Most resources on Azure require supporting resources to be provisioned alongside the main offering. For example, provisioning a VM will also require a Storage Account, Virtual Networking, etc. These resources will remain provisioned *even if you delete the main resource.* Remember to delete **all** resources when you are done using them to avoid charges.
+
+- The protocols that Azure supports for communicating with its services differs from that of AWS or GCP. Refer to the documentation for information specific to each service.
+
+## Security and Permissions Management
