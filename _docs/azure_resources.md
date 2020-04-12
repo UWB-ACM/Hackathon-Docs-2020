@@ -56,6 +56,9 @@ Access to Azure resources is managed through RBAC. RBAC allows you to define how
 
 - **Scope** lets permissions be further constrained based on the resources in question. This allows for scenarios such as allowing a user to be a full admin over one resource group but no access to another. Thanks to this, granting a user the "Owner" permissions does not necessarily mean they will have owner access to the entire account.
 
-Once again, refer to the documents page for more detailed information on role assignements.
+Once again, refer to the [RBAC documentation](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) for more detailed information on role assignements.
 
 ### Azure Active Directory (Azure AD)
+Active Directory is a different from RBAC. While RBAC is focused on access management for cloud account users, Active Directory helps manage credentials and access for cloud applications and networks. Active Directory provides features like user management, user directories, reporting, password management and Single-Sign-On (SSO) services. It also supports using solutions like [OAuth](https://oauth.net/) to easily secure applications built with Azure. There are many more features and both free and numerous paid tiers for Active Directory. See the [Active Directory documentation](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) for information on how to use it.
+
+Azure also provides many more tools and services for securing your applications. See the [Azure Security](https://docs.microsoft.com/en-us/azure/security/fundamentals/overview) page to get started.
