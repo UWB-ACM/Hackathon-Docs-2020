@@ -47,3 +47,15 @@ Azure offers two types of SDKs. Unified SDKs are built on a "common core" and ar
 - The protocols that Azure supports for communicating with its services differs from that of AWS or GCP. Refer to the documentation for information specific to each service.
 
 ## Security and Permissions Management
+### Role-Based Access Control (RBAC)
+Access to Azure resources is managed through RBAC. RBAC allows you to define how to grant access. It can be done based on resource type, subscriptions, resource groups, or the specific resources themselves. Before continuing, see the [Azure documentation page on RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview). RBAC uses the concept of a **role assignment** to assign permissions. Role assignments have three parts.
+
+- **Security Principals** are objects that represent the entity that must be granted permissions. There are four tupes of supportal prinipals: users, groups, service prinicpals, and managed identities. See the documentation page for more info on what each type of security principal is for.
+
+- **Role Definitions** are the actual set of permissions that will be granted to the security principal. Often simply called a **role**, the collection of role definitions covers everything from full administrative access to granular control over a specific service. Adding or removing definitions from the role controls what permission the principal has.
+
+- **Scope** lets permissions be further constrained based on the resources in question. This allows for scenarios such as allowing a user to be a full admin over one resource group but no access to another. Thanks to this, granting a user the "Owner" permissions does not necessarily mean they will have owner access to the entire account.
+
+Once again, refer to the documents page for more detailed information on role assignements.
+
+### Azure Active Directory (Azure AD)
