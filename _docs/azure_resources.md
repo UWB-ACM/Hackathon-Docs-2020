@@ -12,7 +12,7 @@ permalink: /azure_resources.html
 ### SDKs
 Azure offers two types of SDKs. Unified SDKs are built on a "common core" and are recommended for all new projects. Standard SDKs are avilable for older projects or languages unsupported by Unified SDKs.
 
-- [Unified SDKs](https://azure.github.io/azure-sdk/releases/latest/index.html#java-packages) available for: .NET, Java, Python, TypeScript/JavaScript
+- [Unified SDKs](https://azure.github.io/azure-sdk/releases/latest/index.html) available for: .NET, Java, Python, TypeScript/JavaScript
 - [Standard .NET SDKs](https://azure.github.io/azure-sdk/releases/latest/all/dotnet.html) (also included with Visual Studio 2019)
 - [Standard Java SDKs](https://azure.github.io/azure-sdk/releases/latest/all/java.html) 
 - [Standard Python SDKs](https://azure.github.io/azure-sdk/releases/latest/all/python.html) 
