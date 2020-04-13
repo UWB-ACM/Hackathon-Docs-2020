@@ -23,7 +23,6 @@ Azure offers two types of SDKs. Unified SDKs are built on a "common core" and ar
 
 ### Tools
 - [Visual Studio 2019](https://visualstudio.microsoft.com/) has excellent integrations with Azure services, especially when using C#/.NET.
-- [Azure Visual Studio](https://azure.microsoft.com/en-us/products/visual-studio/)
 - [Azure Extensions for VSCode](https://code.visualstudio.com/docs/azure/extensions)
 - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) is a set of Azure tools for use in the command line.
 - [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/overview)
@@ -32,6 +31,7 @@ Azure offers two types of SDKs. Unified SDKs are built on a "common core" and ar
 - [Azure Tools Page](https://azure.microsoft.com/en-us/product-categories/developer-tools/)
 
 ## Tutorials
+- [Microsoft Documentation Home](https://docs.microsoft.com/en-us/)
 - [Getting Started with Azure](https://azure.microsoft.com/en-us/get-started/)
 - [Microsoft Learn - Azure](https://docs.microsoft.com/en-us/learn/azure/)
 - [Azure Documentation](https://docs.microsoft.com/en-us/azure/?product=featured)
