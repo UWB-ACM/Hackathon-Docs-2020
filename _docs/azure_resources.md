@@ -42,9 +42,13 @@ Azure offers two types of SDKs. Unified SDKs are built on a "common core" and ar
 - [The Developer's Guide to Azure](https://azure.microsoft.com/en-us/campaigns/developer-guide/)
 
 ## Helpful Tidbits
-- Most resources on Azure require supporting resources to be provisioned alongside the main offering. For example, provisioning a VM will also require a Storage Account, Virtual Networking, etc. These resources will remain provisioned *even if you delete the main resource.* Remember to delete **all** resources when you are done using them to avoid charges.
+### Take Advantage of Resource Groups
+Most resources on Azure require supporting resources to be provisioned alongside the main offering. For example, provisioning a VM will also require a Storage Account, Virtual Networking, etc. All of a project's resources will be provisioned under the [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal) that you specify at the time of creation. A resource group is a collection of related resources for a project. You can set permissions and other settings for the entire resource group instead of each resource individually. 
 
-- The protocols that Azure supports for communicating with its services differs from that of AWS or GCP. Refer to the documentation for information specific to each service.
+Remember to delete the **entire** resource group when deleting resources in order to avoid getting charged for vestigial resources.
+
+### Take Note of Supported Protocols
+The protocols that Azure supports for communicating with its services differs from that of AWS or GCP. Depending on the application you wish to build, the supported protocols may affect your architecture. Refer to the documentation for information specific to each service.
 
 ## Security and Permissions Management
 ### Role-Based Access Control (RBAC)
