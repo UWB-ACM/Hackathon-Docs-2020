@@ -12,7 +12,7 @@ permalink: /azure_resources.html
 ### SDKs
 Azure offers two types of SDKs. Unified SDKs are built on a "common core" and are recommended for all new projects. Standard SDKs are avilable for older projects or languages unsupported by Unified SDKs.
 
-- [Unified SDKs](https://azure.github.io/azure-sdk/releases/latest/index.html#java-packages) available for: .NET, Java, Python, TypeScript/JavaScript
+- [Unified SDKs](https://azure.github.io/azure-sdk/releases/latest/index.html) available for: .NET, Java, Python, TypeScript/JavaScript
 - [Standard .NET SDKs](https://azure.github.io/azure-sdk/releases/latest/all/dotnet.html) (also included with Visual Studio 2019)
 - [Standard Java SDKs](https://azure.github.io/azure-sdk/releases/latest/all/java.html) 
 - [Standard Python SDKs](https://azure.github.io/azure-sdk/releases/latest/all/python.html) 
@@ -50,7 +50,7 @@ Azure offers two types of SDKs. Unified SDKs are built on a "common core" and ar
 ### Role-Based Access Control (RBAC)
 Access to Azure resources is managed through RBAC. RBAC allows you to define how to grant access. It can be done based on resource type, subscriptions, resource groups, or the specific resources themselves. Before continuing, see the [Azure documentation page on RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview). RBAC uses the concept of a **role assignment** to assign permissions. Role assignments have three parts.
 
-- **Security Principals** are objects that represent the entity that must be granted permissions. There are four tupes of supportal prinipals: users, groups, service prinicpals, and managed identities. See the documentation page for more info on what each type of security principal is for.
+- **Security Principals** are objects that represent the entity that must be granted permissions. There are four types of security principals: users, groups, service principals, and managed identities. See the documentation page for more info on what each type of security principal is for.
 
 - **Role Definitions** are the actual set of permissions that will be granted to the security principal. Often simply called a **role**, the collection of role definitions covers everything from full administrative access to granular control over a specific service. Adding or removing definitions from the role controls what permission the principal has.
 
