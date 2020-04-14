@@ -160,7 +160,20 @@ After we designated the HTTP error status codes we wanted to use in
 Method Response, we had to define what Lambda errors mapped to what 
 status codes.
 
-To do this, we created integration responses for each custom method.
+To do this, we created integration responses for each custom method. 
+For each integration response, we provide a [regular 
+expression](https://en.wikipedia.org/wiki/Regular_expression) which 
+searches the error message returned from Lambda. If a match for the 
+regular expression is found, API Gateway will return the HTTP error code 
+associated with that regular expression.
+
+We have the option to define post-processing for the Lambda error message, 
+but we elected to return Lambda's raw string; this is called a _passthrough 
+response_.
+
+Our definitions look something like this:
+
+![Configuration for integration responses in API Gateway](/assets/integ_response_setup_with_regex.png)
 
 After we created the Integration responses for our custom errors, we had 
 to enable CORS for the errors by hand. We did this by creating a new 
