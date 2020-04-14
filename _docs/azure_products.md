@@ -112,7 +112,6 @@ Here are some helpful links that offer more information into Azure products and 
 
 ## From the Hackathon Docs
 - [Azure Resources]({% link _docs/azure_resources.md %})
-- [Azure Secrets]({% link _docs/azure_secrets.md %})
 
 ## From the Internet
 - [Azure Website](https://azure.microsoft.com/en-us/)
