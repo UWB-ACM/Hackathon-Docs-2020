@@ -72,7 +72,7 @@ AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets y
 
 To get started with Cloud9, you will need to login first, then [click here](https://console.aws.amazon.com/cloud9/home/product?p=c9&cp=bn&ad=c).
 
-Next, click **Create Enviorment**.
+Next, click **Create Environment**.
 
 On the first step, you can name your enviroment anything you want.
 
