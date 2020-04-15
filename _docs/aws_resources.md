@@ -76,7 +76,7 @@ Next, click **Create Environment**.
 
 On the first step, you can name your enviroment anything you want.
 
-On the second and last step, leave everything by default and click **Create Enviroment** to finish.
+On the second and last step, leave everything by default and click **Create Environment** to finish.
 
 If you choose your prefered development enviroment, click [here](https://aws.amazon.com/tools/) to view a list of AWS supported development enviroments. You can find a wide range of development tools that can best support your project.
 
