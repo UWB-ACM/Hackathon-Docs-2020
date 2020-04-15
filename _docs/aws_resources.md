@@ -64,7 +64,7 @@ This video will show how to use a PuTTY private key to connect to your Amazon EC
 
 
 
-# AWS IDEs/ Development tools
+# AWS IDEs & Development tools
 
 **AWS Cloud9**
 
