@@ -71,17 +71,24 @@ More information coming soon!
 ### DynamoDB
 The information presented on the website was stored on a DynamoDB database table. This is a NoSQL database, and there are important factors to consider when implementing this in a project
 
+#### Consider your usage
+NoSQL databases do not require relational information, as would be the use-case for SQL databases. They are flexible, and columns can be introduced and removed as needed. If data integrity is necessary, than consider AWS's relational database options, such as [Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html).
+
+#### Create a table
+Your table is the place where you store your information. Each table requires a [primary key](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.Partitions.html), which can be a single item, or a combination of a partition and sort key. Consider your choice carefully, as there is no way to change your primary key once the table is created. [Reference the list of reserved words for DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ReservedWords.html), to make sure you are not using one of those words, which will cause problems down the line.
+
 #### Setting up Permissions
-Interaction with other AWS services requires the set up of other Amazon services. IAM permissions. Etc...
+Interaction with other AWS services requires the set up of permissions, so that those services may interact with your database. AWS utilizes [IAM permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html), which can be made as broad or as narrow as your use-case requires. Setting your permissions up is a key factor for being able to use Lambda functions on your database, or make API Gateway calls.
 
-#### Designing table schema
-NoSQL is very flexible, and allows for quick table's to be set up. This is dangerous, however, and can become a crutch for lazy table design. Consider carefully what your project is trying to require, and design a schema with the intention of not making changes to it. Although it is tempting to add and remove columns as needed, this quickly becomes untentable. Etc...
+#### Importing/Exporting Datasets
+[AWS Resources, SDK Links, Tutorials, and Helpful Tidbits: Importing Large Datasets](https://github.com/UWB-ACM/Hackathon-Docs-2020/blob/master/_docs/aws_resources.md#importing-large-datasets)</br>
+This document goes over some options for importing and exporting data in DynamoDB. Includes functional code for Lambda calls to import/export a .JSON file.
 
-#### Settings?
-todo
+[What is AWS Data Pipeline?](https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html)</br>
+AWS documentation on Data Pipeline, a service which can be used to import/export database information. Can become costly quickly, so use with caution.
 
-#### Section on other database related things
-todo
+[Mockaroo](https://mockaroo.com/)</br>
+A good website to use to get some mock data, to use when testing your import/export methods.
 
 ## Gotchas & Lessons Learned
 
