@@ -8,6 +8,8 @@ permalink: /aws_resources.html
 
 # AWS Resources, SDK Links, Tutorials, and Helpful Tidbits
 
+<a name="free-tier"/>
+
 ## Avoid Charges For Common Services
 
 After you have signed up for an AWS account and begin using services, keep in mind a few things to avoid unnecessary charges from  services that are not covered within Free Tier:
@@ -86,7 +88,7 @@ If you choose your prefered development enviroment, click [here](https://aws.ama
 
 Rememeber to work with others and take the time to learn.
 
-Take advantage of AWS Free Tier and don't exceed the limits. Refer to the first section of this page for more details.
+Take advantage of AWS Free Tier and don't exceed the limits. Refer to the [first section](#free-tier) of this page for more details.
 
 AWS has many different services, but make sure that you understand the fundamental services like EC2 and S3. These fundamental services will be frequently mentioned in this document. 
 
