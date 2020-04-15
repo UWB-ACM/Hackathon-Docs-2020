@@ -166,6 +166,7 @@ For a full list of terms, check out the resource for DynamoDB: [Reserved Words i
 
 Each AWS service will have its own set of reserved words, so be sure to check them out prior to finalizing your implementation.
 
+<a name="free-tier"/>
 
 ## Avoid Charges For Common Services
 
@@ -217,7 +218,38 @@ How to create EC2 instance in AWS step by step, including creating the EC2 resou
 [EC2 Video Tutorial Available Here](https://www.youtube.com/watch?v=1x5dWRaLvIw)
 
 ## AWS EC2 Linux Launch & Connection Using SSH
-
 This video will show how to use a PuTTY private key to connect to your Amazon EC2 Linux instance.
 
-* [EC2 Linux Launch Video Available Here](https://www.youtube.com/watch?v=v0g1M5bb9u4)
+[EC2 Linux Launch Video Available Here](https://www.youtube.com/watch?v=v0g1M5bb9u4)
+
+
+
+# AWS IDEs & Development tools
+
+**AWS Cloud9**
+
+AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. It can support multiple languages including but not limited to Java, C++, Python, Javascript, etc. One big advantage of using Cloud9 is that you can quickly set it up and start coding right away without the need to install addtional materials. However, you can still choose to use your own IDE if you prefer. AWS also supports other IDEs like Eclipse, PyCharm, Visual Studio Code.
+
+To get started with Cloud9, you will need to login first, then [click here](https://console.aws.amazon.com/cloud9/home/product?p=c9&cp=bn&ad=c).
+
+Next, click **Create Environment**.
+
+On the first step, you can name your enviroment anything you want.
+
+On the second and last step, leave everything by default and click **Create Environment** to finish.
+
+If you choose your prefered development enviroment, click [here](https://aws.amazon.com/tools/) to view a list of AWS supported development enviroments. You can find a wide range of development tools that can best support your project.
+
+
+
+# AWS tips
+
+Rememeber to work with others and take the time to learn.
+
+Take advantage of AWS Free Tier and don't exceed the limits. Refer to the [second section](#free-tier) of this page for more details.
+
+AWS has many different services, but make sure that you understand the fundamental services like EC2 and S3. These fundamental services will be frequently mentioned in this document. 
+
+If you need additional help don't be shy to ask! 
+
+You can find help by joining the Hackathon discord server: https://discord.gg/BhNACgV.
