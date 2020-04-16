@@ -21,7 +21,7 @@ More information coming soon!
 ## Architecture
 To create a functional user website which achieved the above goals, we used AWS services to host the website. The website's design is described in detail below.
 
-- An [S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html) was used as the website host, and was configured with a custom domain, as well as [SSL certification for HTTPS traffic](https://www.freecodecamp.org/news/simple-site-hosting-with-amazon-s3-and-https-5e78017f482a/).
+- An [S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html) was used as the website host, and was configured with a custom domain as well as [SSL certification for HTTPS traffic](https://www.freecodecamp.org/news/simple-site-hosting-with-amazon-s3-and-https-5e78017f482a/).
 - This website was designed to give users access to facts, or to make their own.
 - These user actions are made via [API gateway calls to Lambda functions](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-getting-started-with-rest-apis.html), which execute GET or PUT calls.
 - Function calls create a link to either the CrowFacts or FunFacts [DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html) tables.
