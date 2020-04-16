@@ -8,15 +8,21 @@ permalink: /crowfacts.html
 
 # CrowFacts, an Example Project for AWS
 
-More information coming soon!
+One of the biggest problems faced by humanity is that we have no way to easily get facts about crows. Until now.
 
 ## Goals
 
-More information coming soon!
+- Users can get information about crows
+- Users can insert new information into the database, and get data from other users
+- Host all data on AWS S3 and using DynamoDB to access and create new entries
 
 ## User Experience
 
-More information coming soon!
+1. The user goes to our website and has the option to get crow facts or enter new crow facts.
+
+2. The user can input their own crowfacts (assuming it doesn't contain any no-no words). A list of all submitted words will show on the right side.
+
+<iframe src="https://giphy.com/embed/W4PtD360Ev9x4myZH0" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/run-mjkahn-crow-W4PtD360Ev9x4myZH0">via GIPHY</a></p>
 
 ## Architecture
 
