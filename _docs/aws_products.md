@@ -38,7 +38,7 @@ The AWS Free Tier provides users the ability to explore and try out AWS services
 ## [Amazon EC2](https://aws.amazon.com/ec2/?nc2=h_ql_prod_fs_ec2)
 Amazon EC2 presents a true virtual computing environment, allowing you to use web service interfaces to launch instances with a variety of operating systems, load them with your custom application environment, manage your network’s access permissions, and run your image using as many or few systems as you desire.
 
-With the Free Tier, you get 750 hours of run-time in which you can work on your applications. Note that if you exceed those free hours, you will be charged for additional hours. Refer to the [resources page](aws_resources.html) for how to not get unnecessary charges from using this service.
+With the Free Tier, you get 750 hours of run-time in which you can work on your applications. Note that if you exceed those free hours, you will be charged for additional hours. Refer to the [resources page]({% link _docs/aws_resources.md %}) for how to not get unnecessary charges from using this service.
 
 Create an EC2 instance to remotely run commands using the AWS systems manager.
 
@@ -80,7 +80,7 @@ Amazon Lightsail provides a number of features designed to help make your projec
 
 Lightsail can be used to launch a Windows or linux virtual machine, launch a WordPress website.
 
-## [Amazon VPC ](https://aws.amazon.com/vpc/?nc2=h_ql_prod_fs_vpc)
+## [Amazon VPC](https://aws.amazon.com/vpc/?nc2=h_ql_prod_fs_vpc)
 AWS PrivateLink enables customers to access services hosted on AWS easily but securely by keeping all the network traffic within the AWS network.
 
 ## [SNS](https://aws.amazon.com/sns/?did=ft_card&trk=ft_card&whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc)
