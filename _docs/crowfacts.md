@@ -67,7 +67,7 @@ More information coming soon!
 More information coming soon!
 
 ### DynamoDB
-The information presented on the website was stored on a DynamoDB database table. This is a NoSQL database, and there are important factors to consider when implementing this in a project.
+The information presented on the website was stored in a DynamoDB database table. This is a NoSQL database, and there are important factors to consider when implementing this in a project.
 
 #### Consider your usage
 NoSQL databases do not require relational information, as would be the use-case for SQL databases. They are flexible, and columns can be introduced and removed as needed. If data integrity is necessary, than consider AWS's relational database options, such as [Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html).
@@ -97,4 +97,3 @@ More information coming soon!
 - Data Pipeline cost
 - Reserved words
 - More work than initially thought
-
