@@ -46,7 +46,7 @@ To create a functional user website which achieved the above goals, we used AWS 
 
 [View the example Lambda PUT call here.](https://github.com/UWB-ACM/crowfacts/blob/master/lambda_put_user_fact/lambda_function.py)
 
-[View the example Lambda GET call here.](https://github.com/UWB-ACM/crowfacts/blob/master/lambda_get_user_facts/lambda_function.py)
+[View the Lambda code for the GET call here.](https://github.com/UWB-ACM/crowfacts/blob/master/lambda_get_user_facts/lambda_function.py)
 
 
 The diagram of the system flow is below:
