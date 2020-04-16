@@ -70,7 +70,7 @@ More information coming soon!
 The information presented on the website was stored in a DynamoDB database table. This is a NoSQL database, and there are important factors to consider when implementing this in a project.
 
 #### Consider your usage
-NoSQL databases do not require relational information, as would be the use-case for SQL databases. They are flexible, and columns can be introduced and removed as needed. If data integrity is necessary, than consider AWS's relational database options, such as [Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html).
+NoSQL databases do not require a defined relational schema as SQL databases do. They are flexible, allowing attributes to be introduced as needed. If the relationships between data points are important, then consider AWS's relational database options such as [Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html).
 
 #### Create a table
 Your table is the place where you store your information. Each table requires a [primary key](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.Partitions.html), which can be a single item, or a combination of a partition and sort key. Consider your choice carefully, as there is no way to change your primary key once the table is created. [Reference the list of reserved words for DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ReservedWords.html), to make sure you are not using one of those words, which will cause problems down the line.
