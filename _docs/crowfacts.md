@@ -29,7 +29,7 @@ To create a functional user website, which acheived the above goals, we used AWS
         - Primary key: "CrowSpecies" + "habitat"
         - Sort: 
             - "description": a short decription of the crows appearance
-            - "SubSpecies": specifies what subspecies a crow is, e.g., Florida Crow 
+            - "SubSpecies": specifies what subspecies a crow is, e.g. Florida Crow 
             - "scientific": the scientific name of the crow species 
             - "image": url to an image of the crow species
     - **FunFacts**: A mixture of actual fun facts about crows, and user inputted facts, sanitized at time of Lambda call.
