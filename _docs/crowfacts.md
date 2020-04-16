@@ -77,7 +77,7 @@ The basic API Gateway configuration we did was:
 4. Under `getCrowFacts`, create a `GET` method and link it to the 
    corresponding [Lambda function](https://github.com/UWB-ACM/crowfacts/blob/master/lambda_species/lambda_function.py) 
    we wrote for this purpose.
-5. Uner `UserFacts`, create a `GET` method and link it to the corresponding 
+5. Under `UserFacts`, create a `GET` method and link it to the corresponding 
    [Lambda function](https://github.com/UWB-ACM/crowfacts/tree/master/lambda_get_user_facts)
    we wrote for this purpose.
 6. Under `UserFacts`, create a `POST` method and link it to the corresponding 
@@ -204,4 +204,3 @@ More information coming soon!
 ## Gotchas & Lessons Learned
 
 More information coming soon!
-
