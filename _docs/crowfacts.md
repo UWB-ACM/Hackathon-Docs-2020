@@ -25,7 +25,7 @@ To create a functional user website which achieved the above goals, we used AWS 
 - This website was designed to give users access to facts, or to make their own.
 - These user actions are made via [API gateway calls to Lambda functions](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-getting-started-with-rest-apis.html), which execute GET or PUT calls.
 - Functions calls create a link to either the CrowFacts or FunFacts [DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html) tables.
-    - **CrowFacts**: NoSQL database that returns species information on crows, found by combination of partition and sort key.
+    - **CrowFacts**: NoSQL database that returns species information on crows. Facts are retrieved by combination of partition and sort key.
         - Primary key: "CrowSpecies" + "habitat"
         - Sort: 
             - "description": a short decription of the crows appearance
