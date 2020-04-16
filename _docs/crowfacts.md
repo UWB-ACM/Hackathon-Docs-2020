@@ -70,11 +70,11 @@ The basic API Gateway configuration we did was:
 
 1. Create a new API in the AWS Console. We named ours `crowfacts` and 
    chose the `REST` API protocol.
-2. Create two resources: `getCrowFacts` and `UserFacts`.
+2. Create two resources: `getCrowSpecies` and `UserFacts`.
 3. Ensure that the Lambda functions we wanted to link HTTP methods to 
    were in the AWS account, because the functions have to be available 
    at the time of method creation.
-4. Under `getCrowFacts`, create a `GET` method and link it to the 
+4. Under `getCrowSpecies`, create a `GET` method and link it to the 
    corresponding [Lambda function](https://github.com/UWB-ACM/crowfacts/blob/master/lambda_species/lambda_function.py) 
    we wrote for this purpose.
 5. Under `UserFacts`, create a `GET` method and link it to the corresponding 
