@@ -37,7 +37,7 @@ To create a functional user website which achieved the above goals, we used AWS 
         - Sort: 
             - "source": the source of who inputted the fact
 - Success of GET or PUT call is logged via [AWS Cloudwatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html).
-- If successful, the information will return succesful to API Gateway, which will return the information retrieved.
+- If successful, the information will be returned to API Gateway which will in turn return the information retrieved to the website.
 - Based on if user made a call to retrieve crow information, or fun facts, the S3 bucket will create a visual representation of the information
     - Website uses the image url's in the "image" column to show crow photos. 
     - Additionally, the website uses the "description" column to give a verbal description of the crows.
