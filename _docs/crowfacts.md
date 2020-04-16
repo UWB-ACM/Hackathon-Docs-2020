@@ -76,7 +76,7 @@ NoSQL databases do not require a defined relational schema as SQL databases do. 
 Your table is the place where you store your information. Each table requires a [primary key](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.Partitions.html), which can be a single item, or a combination of a partition and sort key. Consider your choice carefully, as there is no way to change your primary key once the table is created. [Reference the list of reserved words for DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ReservedWords.html), to make sure you are not using one of those words, which will cause problems down the line.
 
 #### Set up Permissions
-Interaction with other AWS services requires the set up of permissions, so that those services may interact with your database. AWS utilizes [IAM permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html), which can be made as broad or as narrow as your use-case requires. Setting your permissions up is a key factor for being able to use Lambda functions on your database, or make API Gateway calls.
+Interaction with other AWS services requires the set up of permissions, so that those services may interact with your database. AWS utilizes [IAM permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html), which can be made as broad or as narrow as your use-case requires. Setting your permissions up is a key factor for being able to use Lambda functions on your database or make API Gateway calls.
 
 #### Import/Export Datasets
 There are multiple approaches for handling the import and export of your DynamoDB information; the following are references for your options.
