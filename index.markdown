@@ -17,9 +17,9 @@ for potential projects, or get help if you are feeling lost or stuck.
 |  9:30 AM | Opening Ceremony on [Zoom](https://washington.zoom.us/j/798388880)                                |
 | 10:00 AM | Workshop: Team-Building Mixer, Hosted by ACM-W on [Zoom](https://washington.zoom.us/j/366198766)  |
 | 10:00 AM | Hacking begins!                                                                                   |
-| 11:15 AM | Workshop: Intro to Cloud Services on [Zoom](https://washington.zoom.us/j/951323956)               |
+| 11:00 AM | Workshop: Intro to Cloud Services on [Zoom](https://washington.zoom.us/j/951323956)               |
 |  1:15 PM | Lightning Talks: Tales from the Cloud on [Zoom](https://washington.zoom.us/j/573514052)           |
-|  2:45 PM | Workshop (more details TBA)                                                                       |
+|  2:45 PM | Workshop: Mentor Q&A on [Zoom](https://washington.zoom.us/s/94858789853)                          |
 
 ### Saturday April 18th
 
