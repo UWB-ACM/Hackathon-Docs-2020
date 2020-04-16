@@ -23,7 +23,7 @@ To keep track of your code and prevent issues utilize the following:
 - [BitBucket.com](BitBucket.com) = Much like GitHub, but with private repositories.
 
 ## Collaborative Cloud
-Check out [our guide on choosing a cloud provider](https://docs.uwbhacks.com/cloud_setup.html) to pick a cloud platform to use for your project.
+Check out [our guide on choosing a cloud provider]({% link _docs/cloud_account_setup.md %}) to pick a cloud platform to use for your project.
 
 
 
