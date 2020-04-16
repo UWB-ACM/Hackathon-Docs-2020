@@ -88,7 +88,7 @@ This document goes over some options for importing and exporting data in DynamoD
 This is the AWS documentation on Data Pipeline, a service which can be used to import/export database information. Can become costly quickly, so use with caution.
 
 [Mockaroo](https://mockaroo.com/)</br>
-A good website to use to get some mock data, to use when testing your import/export methods.
+A good website to use to get some mock data to use when testing your import/export methods.
 
 ## Gotchas & Lessons Learned
 
