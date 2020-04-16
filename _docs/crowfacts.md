@@ -79,7 +79,7 @@ Your table is the place where you store your information. Each table requires a 
 Interaction with other AWS services requires the set up of permissions, so that those services may interact with your database. AWS utilizes [IAM permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html), which can be made as broad or as narrow as your use-case requires. Setting your permissions up is a key factor for being able to use Lambda functions on your database or make API Gateway calls.
 
 #### Import/Export Datasets
-There are multiple approaches for handling the import and export of your DynamoDB information; the following are references for your options.
+There are multiple approaches for handling the import and export of your DynamoDB information. See the following links for some options on how to implement it.
 
 [AWS Resources, SDK Links, Tutorials, and Helpful Tidbits: Importing Large Datasets](https://github.com/UWB-ACM/Hackathon-Docs-2020/blob/master/_docs/aws_resources.md#importing-large-datasets)</br>
 This document goes over some options for importing and exporting data in DynamoDB. It includes functional code for Lambda calls to import/export a .JSON file.
