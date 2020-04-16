@@ -50,7 +50,7 @@ To create a functional user website which achieved the above goals, we used AWS 
 
 
 The diagram of the system flow is below:
-![Visual representation of the archtectural design of crow facts](https://i.postimg.cc/cJmdCg0t/actual-arch.png)
+![Visual representation of the archtectural design of crow facts](https://github.com/UWB-ACM/Hackathon-Docs-2020/blob/erica/crowfactsDocs/assets/imgs/actual_arch.png?raw=true)
 
 ## Implementation Notes
 
