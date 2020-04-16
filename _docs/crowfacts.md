@@ -19,7 +19,7 @@ More information coming soon!
 More information coming soon!
 
 ## Architecture
-To create a functional user website, which acheived the above goals, we used AWS services to host the website and its services on the cloud. The websites design is described below.
+To create a functional user website which achieved the above goals, we used AWS services to host the website. The website's design is described in detail below.
 
 - An [S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html) was used as the website host, and was configured with a custom domain, as well as [SSL certification for HTTPS traffic](https://www.freecodecamp.org/news/simple-site-hosting-with-amazon-s3-and-https-5e78017f482a/).
 - This website was designed to give users access to facts, or to make their own.
