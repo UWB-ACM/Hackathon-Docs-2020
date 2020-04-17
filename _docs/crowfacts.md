@@ -8,15 +8,21 @@ permalink: /crowfacts.html
 
 # CrowFacts, an Example Project for AWS
 
-More information coming soon!
+One of the biggest problems faced by humanity is that we have no way to easily get facts about crows. Until now.
 
 ## Goals
 
-More information coming soon!
+- Users can get information about crows
+- Users can insert new information into the database, and get data from other users
+- Host all data on AWS S3 and using DynamoDB to access and create new entries
 
 ## User Experience
 
-More information coming soon!
+1. The user goes to our website and has the option to get crow facts or enter new crow facts.
+
+2. The user can input their own crowfacts (assuming it doesn't contain any no-no words). A list of all submitted words will show on the right side.
+
+<iframe src="https://giphy.com/embed/W4PtD360Ev9x4myZH0" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/run-mjkahn-crow-W4PtD360Ev9x4myZH0">via GIPHY</a></p>
 
 ## Architecture
 To create a functional user website which achieved the above goals, we used AWS services to host the website. The website's design is described in detail below.
@@ -223,7 +229,16 @@ the custom errors can be seen
 
 ### Lambda
 
-More information coming soon!
+AWS Lambda handles all of CrowFacts' computation. Within AWS Lambda, there are several important things that must be configured in order for CrowFacts' code to operate correctly.
+
+#### Give Lambda access to DynamoDB
+By default, creating a Lambda function from scratch, adding DynamoDB code, and pressing "Test" won't work. Why? Simple, because the Lambda function does not have *access* to DynamoDB. Cloud systems operate on a least-required permissions model, meaning that in order for your Lambda function to access DynamoDB, you must explicitly grant Lambda access to DynamoDB (and any other AWS services you might want Lambda to access). Refer to [AWS documentation on IAM permissions for DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/authentication-and-access-control.html), and check out [the TL;DR explanation of IAM on the documentation site for this hackathon]({% link _docs/aws_secrets.md %}).
+    
+#### Set up environment variables for Lambda functions
+- In order to keep the code looking clean, and to avoid writing publicly available code that contains sensitive information (including naughty words), we can use Environment Variables. These are exactly like environment variables on your computer. They're variables that you can access in your code like any other, but since they're not declared or otherwise modified in the source code, they're invisible and can't be accidentally leaked (say when you upload your code to a public git repository).
+
+- After you create a Lambda function in the AWS portal, you will be greeted with the function's page. Here you can edit the code directly and modify the function's settings. Right below the code window, you will see a menu item for **Environment Variables**. Click Edit to modify them. The **key** is the variable name, and the **value** is the variable's value. Click Save to save these variables in the function. Now you can access the environment variables in the Lambda function's code by calling it using the key. See [AWS Documentation on Environment Variables](https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html) for more info.
+
 
 ### DynamoDB
 The information presented on the website was stored in a DynamoDB database table. This is a NoSQL database, and there are important factors to consider when implementing this in a project.
