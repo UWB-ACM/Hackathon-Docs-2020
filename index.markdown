@@ -10,16 +10,19 @@ for potential projects, or get help if you are feeling lost or stuck.
 
 ## Schedule
 
+All of the Zoom sessions for Friday require a password to join. Make sure 
+you join our [Discord server](https://discord.gg/EDBbxmt) to get the passphrases.
+
 ### Friday April 17th
 
 | Time     | Event                                                                                             |
 |---------:|:--------------------------------------------------------------------------------------------------|
 |  9:30 AM | Opening Ceremony on [Zoom](https://washington.zoom.us/j/798388880)                                |
-| 10:00 AM | Workshop: Team-Building Mixer, Hosted by ACM-W on [Zoom](https://washington.zoom.us/j/366198766)  |
+| 10:00 AM | Workshop: Team-Building Mixer, Hosted by ACM-W on [Zoom](https://washington.zoom.us/j/91894097910) |
 | 10:00 AM | Hacking begins!                                                                                   |
 | 11:00 AM | Workshop: Intro to Cloud Services on [Zoom](https://washington.zoom.us/j/951323956)               |
 |  1:15 PM | Lightning Talks: Tales from the Cloud on [Zoom](https://washington.zoom.us/j/573514052)           |
-|  2:45 PM | Workshop: Mentor Q&A on [Zoom](https://washington.zoom.us/s/94858789853)                          |
+|  2:45 PM | Workshop: Mentor Q&A on [Zoom](https://washington.zoom.us/j/91453343290)                          |
 
 ### Saturday April 18th
 
