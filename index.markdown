@@ -8,6 +8,11 @@ Welcome to the documentation page for UWB ACM's annual hackathon! Check out
 some of the guides below to prepare for the big day, find inspiration
 for potential projects, or get help if you are feeling lost or stuck. 
 
+## Presentations
+
+Visit the [docs page for presentations]({% link _docs/presentation_materials.md %}) 
+for all available slide decks and recorded presentations.
+
 ## Schedule
 
 All of the Zoom sessions for Friday require a password to join. Make sure 
