@@ -8,7 +8,7 @@ permalink: /code_of_conduct.html
 
 # Code of Conduct
 
-UWB Hacks the Cloud is going to be amazing! Let's lay some ground rules to make sure everyone has the best experience possible.
+UWB Hack From Home is going to be amazing! Let's lay some ground rules to make sure everyone has the best experience possible.
 
 ## TL;DR
 
